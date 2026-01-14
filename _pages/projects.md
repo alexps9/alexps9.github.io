@@ -40,5 +40,6 @@ Built a procedural content generation (PCG) toolchain in Unreal Engine 5 to rapi
 
 *2024*
 Developed a fuzzing-based framework to automatically discover critical parking scenarios for autonomous parking systems. Extended the simulator with custom UE5 parking maps (diverse layouts, obstacles, and boundary conditions) to increase scenario coverage and enable systematic stress-testing of planning and control under safety-critical corner cases.
+
 **Technologies**: Fuzzing, Unreal Engine 5, Python, Carla
 *More projects will be added soon!*
