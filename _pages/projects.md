@@ -13,7 +13,7 @@ Here are some of my selected projects. More details coming soon!
 
 *2025*
 
-A more efficient large language model inference framework that outperforms vLLM and SGLang on latency and throughput under the same hardware budget. Focused on optimized attention scheduling, paged KV cache management, and heterogeneous pipeline parallelism. Interestingly, to tackle deployment constraints on H20 and 4090D GPUs（God knows what happened）, we further integrated [TeraPipe](https://proceedings.mlr.press/v139/li21y/li21y.pdf) for token-level batch splitting during the prefilling stage, enabling fine-grained parallelization across heterogeneous SM clusters. Moreover, leveraging Ray Plasma for decoding-phase shared-memory optimization significantly reduced inter-process communication overhead, improving multi-instance GPU utilization and inference stability under high concurrency.
+A more efficient large language model inference framework that outperforms vLLM and SGLang on latency and throughput under the same hardware budget. Focused on optimized attention scheduling, paged KV cache management, and heterogeneous pipeline parallelism. Interestingly, to tackle deployment constraints on H20 and 4090D GPUs(God knows what happened), we further integrated [TeraPipe](https://proceedings.mlr.press/v139/li21y/li21y.pdf) for token-level batch splitting during the prefilling stage, enabling fine-grained parallelization across heterogeneous SM clusters. Moreover, leveraging Ray Plasma for decoding-phase shared-memory optimization significantly reduced inter-process communication overhead, improving multi-instance GPU utilization and inference stability under high concurrency.
 
 Deployed internally at ByteDance to serve commercial workloads (not open-sourced，😞).
 
