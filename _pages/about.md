@@ -19,16 +19,16 @@ redirect_from:
 
 # 🗺️ About Me
 
-Hello, I'm **Songyang Peng**, an incoming **Ph.D. student (Fall 2026)** in **Computer Science** currently pursuing my **M.E. in Computer Technology** at **Fudan University**. I am also a **Co-Founder of Apeat AI**, an AI startup building LLM-native applications for productivity and automation.
+Hello, I'm **Songyang Peng**, an incoming **Ph.D. student (Fall 2026)** in **Computer Science** currently pursuing my **M.E. in Computer Technology** at **Fudan University**. I am also a **Co-Founder of [Apeat AI](https://www.linkedin.com/company/apeat-ai/)**, an AI startup building LLM-native applications for productivity and automation.
 
 My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**. To date, I have published papers at top-tier conferences including **USENIX Security 2026** and **VehicleSec 2025**, and I currently have two first-author papers (**FSE 26'**, **ICML 26'**) and one co-authored paper (**TIFS 26'**) under review, wish me good luck 🙏.
 
 Previously, I worked as an LLM Inference Engineer Intern at **[ByteDance, Ark](https://www.volcengine.com/product/ark)**, contributing to high-performance LLM serving and agent infrastructure. Before that, I was an AI Research Intern at **[Tencent, IEG](https://www.tencent.com/en-us/)**, where I developed generative scene creation tools in Unreal Engine using LLMs and procedural content generation (PCG).
 # 🔥 News
 
-* \[_2025_\] 🎉 One paper accepted by **USENIX Security 2026** (CCF-A) on agent-based DoS attacks.
-* \[_2025_\] 🎉 Co-founded **Apeat AI**, an AI startup building LLM-native applications for productivity and automation.
-* \[_2025.04_\] 🎉 Started as LLM Inference Engineer Intern at ByteDance.
+* \[_2025_\] 🎉 One paper accepted by **USENIX Security 2026** on agent-based DoS attacks.
+* \[_2025_\] 🎉 Co-founded **[Apeat AI](https://www.linkedin.com/company/apeat-ai/)**, an AI startup building LLM-native applications for productivity and automation.
+* \[_2025.04_\] 🎉 Started as LLM Inference Engineer Intern at **ByteDance**.
 * \[_2024.12_\] 🎉 Selected for Tencent's **Game-Engine Computer Graphics Practice Elite Talent Program** as an AI Research Intern. 
 * \[_2024—_\] 🎉 One paper accepted by **USENIX VehicleSec 2026**  on agent-based DoS attacks.
 
@@ -39,7 +39,7 @@ Previously, I worked as an LLM Inference Engineer Intern at **[ByteDance, Ark](h
 Jiaqi Luo, Jiarun Dai, Fengyu Liu, **Songyang Peng**, Youkun Shi, Tong Bu, Geng Hong, Xudong Pan, Yuan Zhang.  
 In _Proceedings of the 35th USENIX Security Symposium (USENIX Security)_, Baltimore, MD, USA, August 12-14, 2026. (CCF-A)
 
-* <span class="conference-badge conference-vehiclesec">VehicleSec'25</span> **APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems** \[PDF\]  
+* <span class="conference-badge conference-vehiclesec">VehicleSec'25</span> **APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems** \[[PDF](https://www.usenix.org/system/files/vehiclesec25-bu.pdf)\]  
 Tong Bu, Jiarun Dai, Jiaqi Luo, **Songyang Peng**, Zongan Huang, Min Yang.  
 In _Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (VehicleSec)_, 2025, pages 289-296.
 
