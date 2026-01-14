@@ -13,7 +13,9 @@ Here are some of my selected projects. More details coming soon!
 
 *2025*
 
-A more efficient large language model inference framework that outperforms vLLM and SGLang on latency and throughput under the same hardware budget. Focused on optimized attention scheduling, paged KV cache management, and heterogeneous pipeline parallelism. Deployed internally at ByteDance to serve commercial workloads (not open-sourced).
+A more efficient large language model inference framework that outperforms vLLM and SGLang on latency and throughput under the same hardware budget. Focused on optimized attention scheduling, paged KV cache management, and heterogeneous pipeline parallelism. Interestingly, to tackle deployment constraints on H20 and 4090D GPUs（God knows what happened）, we further integrated [TeraPipe](https://proceedings.mlr.press/v139/li21y/li21y.pdf) for token-level batch splitting during the prefilling stage, enabling fine-grained parallelization across heterogeneous SM clusters. Moreover, leveraging Ray Plasma for decoding-phase shared-memory optimization significantly reduced inter-process communication overhead, improving multi-instance GPU utilization and inference stability under high concurrency.
+
+Deployed internally at ByteDance to serve commercial workloads (not open-sourced，😞).
 
 **Technologies**: C++, Python, CUDA, Ray
 
@@ -21,7 +23,9 @@ A more efficient large language model inference framework that outperforms vLLM 
 
 *2025*
 
-A modular simulation engine for multi-scenario inference (three-graph, dual-graph, and PD-separation pipelines) used for fault injection and resilience testing of production systems. Enhanced online model registration, health probing, and zero-downtime deployment via K8s HPA and custom metrics. Deployed internally at ByteDance to serve commercial workloads (not open-sourced).
+A modular simulation engine for multi-scenario inference (three-graph, dual-graph, and PD-separation pipelines) used for fault injection and resilience testing of production systems. Enhanced online model registration, health probing, and zero-downtime deployment via K8s HPA and custom metrics. 
+
+Deployed internally at ByteDance to serve commercial workloads (not open-sourced, 😞).
 
 **Technologies**: Kubernetes, gRPC, Python, Go, Ray
 
