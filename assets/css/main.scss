@@ -107,3 +107,96 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Conference badges for publications */
+.conference-badge {
+    display: inline-block;
+    padding: 0.25em 0.6em;
+    margin-right: 0.5em;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* USENIX Security - Orange/Red */
+.conference-usenix-security {
+    background-color: #d97706; /* Orange-600 */
+}
+
+/* VehicleSec - Blue */
+.conference-vehiclesec {
+    background-color: #2563eb; /* Blue-600 */
+}
+
+/* FSE - Green (for future use) */
+.conference-fse {
+    background-color: #059669; /* Green-600 */
+}
+
+/* TIFS - Purple (for future use) */
+.conference-tifs {
+    background-color: #7c3aed; /* Purple-600 */
+}
+
+/* ICML - Teal (for future use) */
+.conference-icml {
+    background-color: #0d9488; /* Teal-600 */
+}
+
+/* Project links styling */
+.project-link {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    margin-left: 0.5em;
+    border-radius: 6px;
+    font-size: 0.85em;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.project-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.project-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(102, 126, 234, 0.4);
+    color: white;
+    text-decoration: none;
+}
+
+.project-link:hover::before {
+    left: 100%;
+}
+
+.project-link:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+/* GitHub specific link style */
+.project-link.github-link {
+    background: linear-gradient(135deg, #24292e 0%, #2f363d 100%);
+    box-shadow: 0 2px 4px rgba(36, 41, 46, 0.3);
+}
+
+.project-link.github-link:hover {
+    box-shadow: 0 4px 8px rgba(36, 41, 46, 0.4);
+    background: linear-gradient(135deg, #2f363d 0%, #24292e 100%);
+}
