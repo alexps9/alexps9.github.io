@@ -19,7 +19,7 @@ redirect_from:
 
 # 🗺️ About Me
 
-Hello, I'm **Songyang Peng**, an incoming **Ph.D. student (Fall 2026)** in **Computer Science** currently pursuing my **M.E. in Computer Technology** at **Fudan University**. I am also a **Co-Founder of [Apeat AI](https://www.linkedin.com/company/apeat-ai/)**, an AI startup building LLM-native applications for productivity and automation.
+Hello, I'm **Songyang Peng**, an incoming **Ph.D. student (Fall 2026)** in **Computer Science** currently pursuing my **M.S. in Computer Science** at **Fudan University**. I am also a **Co-Founder of [Apeat AI](https://www.linkedin.com/company/apeat-ai/)**, an AI startup building LLM-native applications for productivity and automation.
 
 My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**. To date, I have published papers at top-tier conferences including **USENIX Security 2026** and **VehicleSec 2025**, and I currently have two first-author papers (**FSE 26'**, **ICML 26'**) and one co-authored paper (**IEEE TIFS 26'**) under review, wish me good luck 🙏.
 
@@ -45,7 +45,7 @@ In _Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (Veh
 
 # 📖 Education
 
-* _2023.09 - now_, **M.E. in Computer Technology**, Fudan University, School of Computer Science and Technology, Shanghai, China.
+* _2023.09 - now_, **M.S. in Computer Science**, Fudan University, School of Computer Science and Technology, Shanghai, China.
 * _2019.09 - 2023.06_, **B.E. in Artificial Intelligence**, Tianjin University, School of Future Technology, Tianjin, China.
 
 # 🏆 Selected Competitions
