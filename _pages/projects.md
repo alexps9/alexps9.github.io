@@ -32,6 +32,7 @@ Deployed internally at ByteDance to serve commercial workloads (not open-sourced
 ## Instaworld <a href="https://github.com/alexps9/InstaWorld" class="project-link github-link" target="_blank">🔗GitHub</a>
 
 *2024*
+
 Built a procedural content generation (PCG) toolchain in Unreal Engine 5 to rapidly assemble 3D game scenes. Integrated LLMs for text-driven scene planning and vector retrieval to search and select suitable assets (meshes/materials/props) from an asset library, enabling fast scene prototyping and iterative refinement.
 
 **Technologies**: Unreal Engine 5, Python, PCG, LLMs, Vector Retrieval (Embeddings)
@@ -39,6 +40,7 @@ Built a procedural content generation (PCG) toolchain in Unreal Engine 5 to rapi
 ## APSFuzz (Contributor) <a href="https://github.com/JSGforever/APSFuzz" class="project-link github-link" target="_blank">🔗GitHub</a>
 
 *2024*
+
 Developed a fuzzing-based framework to automatically discover critical parking scenarios for autonomous parking systems. Extended the simulator with custom UE5 parking maps (diverse layouts, obstacles, and boundary conditions) to increase scenario coverage and enable systematic stress-testing of planning and control under safety-critical corner cases.
 
 **Technologies**: Fuzzing, Unreal Engine 5, Python, Carla
