@@ -46,7 +46,7 @@ In _Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (Veh
 # 📖 Education
 
 * _2023.09 - now_, **M.S. in Computer Science**, Fudan University, School of Computer Science and Technology, Shanghai, China.
-* _2019.09 - 2023.06_, **B.E. in Artificial Intelligence**, Tianjin University, School of Future Technology, Tianjin, China.
+* _2019.09 - 2023.06_, **B.E. in Artificial Intelligence (Elite Class)**, Tianjin University, School of Future Technology, Tianjin, China.
 
 # 🏆 Selected Competitions
 
