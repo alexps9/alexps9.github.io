@@ -30,7 +30,7 @@ Previously, I worked as an LLM Inference Engineer Intern at **[ByteDance, Ark](h
 * \[_2025_\] 🎉 Co-founded **[Apeat AI](https://www.linkedin.com/company/apeat-ai/)**, an AI startup building LLM-native applications for productivity and automation.
 * \[_2025.04_\] 🎉 Started as LLM Inference Engineer Intern at **ByteDance**.
 * \[_2024.12_\] 🎉 Selected for Tencent's **Game-Engine Computer Graphics Practice Elite Talent Program** as an AI Research Intern. 
-* \[_2024_\] 🎉 One paper accepted by **USENIX VehicleSec 2026**  on agent-based DoS attacks.
+* \[_2024_\] 🎉 One paper accepted by **USENIX VehicleSec 2026**  on fuzzing-based testing for autonomous driving.
 
 
 # 📝 Publications
