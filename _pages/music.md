@@ -213,9 +213,9 @@ BLACKPINK's Jennie is a Kpop artist I greatly admire. She not only possesses exc
 
 ---
 
-## 🎹 Jazz, Blues & Soul - The Roots of Music
+## 🎹 Jazz, Blues & Soul 
 
-Although I primarily focus on R&B and Hiphop, Jazz, Blues, and Soul, as the roots of these music genres, deeply attract me. That improvisational freedom, heartfelt expression, and warm resonance are the most essential charms of music. These classic genres have taught me how to truly feel, understand, and love music.
+To be constructed!
 
 ---
 
