@@ -15,32 +15,6 @@ Music is an indispensable part of my life. From the soulful melodies of R&B to t
 
 R&B is more than just a music genre to me—it's a vessel for emotions. Those heartfelt melodies and delicate vocals always strike the softest parts of the soul.
 
-### David Tao - The Pioneer of Chinese R&B
-
-David Tao is the irreplaceable godfather of R&B in my heart. From "Find Myself" to "Love, Very Simple," from "Ordinary Friend" to "Just Love You," each of his songs is like a meticulously crafted work of art. He uses music to interpret what true "Tao-style love songs" are—combining Western rhythm with Eastern emotional delicacy. His music has accompanied me through countless nights, and those melodies still resonate in my heart.
-
-![David Tao]({{ '/images/david_tao.jpg' | relative_url }})
-
-<div class="music-recommendations">
-  <h4>🎵 Recommended Songs</h4>
-  <div class="song-cards">
-    <div class="song-card">
-      <div class="song-icon">🎵</div>
-      <div class="song-info">
-        <div class="song-title">那个女孩</div>
-        <div class="song-artist">David Tao</div>
-      </div>
-    </div>
-    <div class="song-card">
-      <div class="song-icon">🎵</div>
-      <div class="song-info">
-        <div class="song-title">飞机场的十点半</div>
-        <div class="song-artist">David Tao</div>
-      </div>
-    </div>
-  </div>
-</div>
-
 ### Khalil Fong - The Eternal Music Poet
 
 > **R.I.P. Khalil Fong** 🙏
@@ -83,6 +57,32 @@ When it comes to R&B, how can we not mention the legendary Stevie Wonder? His mu
       <div class="song-info">
         <div class="song-title">Superstition</div>
         <div class="song-artist">Stevie Wonder</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+### David Tao - The Pioneer of Chinese R&B
+
+David Tao is the irreplaceable godfather of R&B in my heart. From "Find Myself" to "Love, Very Simple," from "Ordinary Friend" to "Just Love You," each of his songs is like a meticulously crafted work of art. He uses music to interpret what true "Tao-style love songs" are—combining Western rhythm with Eastern emotional delicacy. His music has accompanied me through countless nights, and those melodies still resonate in my heart.
+
+![David Tao]({{ '/images/david_tao.jpg' | relative_url }})
+
+<div class="music-recommendations">
+  <h4>🎵 Recommended Songs</h4>
+  <div class="song-cards">
+    <div class="song-card">
+      <div class="song-icon">🎵</div>
+      <div class="song-info">
+        <div class="song-title">那个女孩</div>
+        <div class="song-artist">David Tao</div>
+      </div>
+    </div>
+    <div class="song-card">
+      <div class="song-icon">🎵</div>
+      <div class="song-info">
+        <div class="song-title">飞机场的十点半</div>
+        <div class="song-artist">David Tao</div>
       </div>
     </div>
   </div>
