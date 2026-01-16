@@ -192,15 +192,33 @@ h1:before, .anchor:before {
 
 /* GitHub specific link style */
 .project-link.github-link {
-    background: linear-gradient(135deg, #2d3338 0%, #3d4449 100%);
-    box-shadow: 0 2px 4px rgba(36, 41, 46, 0.3);
-    color: white !important;
+    background: #1f2328;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff !important;
+    font-weight: 600;
+    padding: 0.4em 0.9em;
+    letter-spacing: 0.02em;
 }
 
 .project-link.github-link:hover {
-    box-shadow: 0 4px 8px rgba(36, 41, 46, 0.4);
-    background: linear-gradient(135deg, #3d4449 0%, #2d3338 100%);
-    color: white !important;
+    background: #2d3339;
+    border-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
+.project-link.github-link:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    background: #1f2328;
+}
+
+/* Ensure emoji and text are visible in GitHub links */
+.project-link.github-link * {
+    color: #ffffff !important;
+    opacity: 1 !important;
 }
 
 /* Music Page Styles */
