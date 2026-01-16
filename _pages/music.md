@@ -164,6 +164,8 @@ When it comes to Chinese Hiphop, Masiwei and Digi Ghetto are artists I greatly a
 
 Wang Yitai has established himself in the Chinese rap scene with his unique musical style and profound lyrical content. His music combines the rhythm of Hiphop with the melody of R&B, forming a distinctive personal style.
 
+![Wang Yitai]({{ '/images/music/wang_yitai.jpg' | relative_url }})
+
 <div class="music-recommendations">
   <h4>🎵 Recommended Songs</h4>
   <div class="song-cards">
