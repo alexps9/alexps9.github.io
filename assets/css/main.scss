@@ -192,13 +192,15 @@ h1:before, .anchor:before {
 
 /* GitHub specific link style */
 .project-link.github-link {
-    background: linear-gradient(135deg, #24292e 0%, #2f363d 100%);
+    background: linear-gradient(135deg, #2d3338 0%, #3d4449 100%);
     box-shadow: 0 2px 4px rgba(36, 41, 46, 0.3);
+    color: white !important;
 }
 
 .project-link.github-link:hover {
     box-shadow: 0 4px 8px rgba(36, 41, 46, 0.4);
-    background: linear-gradient(135deg, #2f363d 0%, #24292e 100%);
+    background: linear-gradient(135deg, #3d4449 0%, #2d3338 100%);
+    color: white !important;
 }
 
 /* Music Page Styles */
