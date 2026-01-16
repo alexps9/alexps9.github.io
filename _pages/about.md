@@ -15,7 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-Greeting! Welcome to my page.
+Greetting! Welcome to my page. If you want to get to know me better, understanding my [music preferences](/music/) might help! 🎵
 
 
 <span class='anchor' id='about-me'></span>
