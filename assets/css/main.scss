@@ -200,3 +200,330 @@ h1:before, .anchor:before {
     box-shadow: 0 4px 8px rgba(36, 41, 46, 0.4);
     background: linear-gradient(135deg, #2f363d 0%, #24292e 100%);
 }
+
+/* Music Page Styles */
+.music-recommendations {
+    margin: 2em 0;
+    padding: 1.5em;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 1em;
+        color: #2c3e50;
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    &:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        transform: translateY(-2px);
+    }
+}
+
+.song-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.song-card {
+    display: flex;
+    align-items: center;
+    padding: 1em 1.2em;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+        transition: left 0.5s;
+    }
+
+    &:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+
+        &::before {
+            left: 100%;
+        }
+
+        .song-icon {
+            transform: rotate(360deg) scale(1.2);
+            color: white;
+        }
+
+        .song-title,
+        .song-artist {
+            color: white;
+        }
+    }
+
+    &:active {
+        transform: translateY(-2px) scale(1.01);
+    }
+}
+
+.song-icon {
+    font-size: 2em;
+    margin-right: 1em;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    color: white;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.song-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+
+.song-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #2c3e50;
+    transition: color 0.3s ease;
+}
+
+.song-artist {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    transition: color 0.3s ease;
+}
+
+/* Artist images styling */
+.page__content img {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+    margin: 1.5em 0;
+
+    &:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+}
+
+/* Section headers with gradient */
+.page__content h2 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #e0e0e0;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 60px;
+        height: 2px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+}
+
+/* H3 styling */
+.page__content h3 {
+    color: #34495e;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    position: relative;
+    padding-left: 1em;
+
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 4px;
+        height: 80%;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        border-radius: 2px;
+    }
+}
+
+/* Blockquote styling for R.I.P. */
+.page__content blockquote {
+    border-left: 4px solid #e74c3c;
+    background: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 100%);
+    padding: 1em 1.5em;
+    margin: 1.5em 0;
+    border-radius: 8px;
+    font-style: italic;
+    position: relative;
+
+    &::before {
+        content: '💔';
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        font-size: 1.5em;
+    }
+}
+
+/* Page intro animation */
+.page__content > p:first-of-type {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #34495e;
+    padding: 1.5em;
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+    margin-bottom: 2em;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '🎵';
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        font-size: 8em;
+        opacity: 0.1;
+        transform: rotate(-15deg);
+    }
+}
+
+/* Fade-in animation for sections */
+.page__content h2,
+.page__content h3 {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Stagger animation for song cards */
+.song-card {
+    animation: fadeInUp 0.6s ease-out;
+    animation-fill-mode: both;
+
+    @for $i from 1 through 10 {
+        &:nth-child(#{$i}) {
+            animation-delay: #{$i * 0.1}s;
+        }
+    }
+}
+
+/* Enhanced image hover effect */
+.page__content img {
+    position: relative;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        border-radius: 12px;
+    }
+
+    &:hover::after {
+        opacity: 1;
+    }
+}
+
+/* Music recommendations container enhancement */
+.music-recommendations {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+        animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    > * {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+/* Responsive design */
+@include breakpoint($small) {
+    .song-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .song-card {
+        padding: 0.8em 1em;
+    }
+
+    .song-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5em;
+    }
+
+    .page__content > p:first-of-type {
+        padding: 1em;
+        font-size: 1em;
+    }
+}
