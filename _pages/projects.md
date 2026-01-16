@@ -29,7 +29,9 @@ Deployed internally at ByteDance to serve commercial workloads (not open-sourced
 
 **Technologies**: Kubernetes, gRPC, Python, Go, Ray
 
-## Instaworld <a href="https://github.com/alexps9/InstaWorld" class="project-link github-link" target="_blank">🔗GitHub</a>
+## Instaworld
+
+<a href="https://github.com/alexps9/InstaWorld" class="project-link github-link" target="_blank">🔗GitHub</a>
 
 *2024*
 
@@ -37,7 +39,9 @@ Built a procedural content generation (PCG) toolchain in Unreal Engine 5 to rapi
 
 **Technologies**: Unreal Engine 5, Python, PCG, LLMs, Vector Retrieval (Embeddings)
 
-## APSFuzz (Contributor) <a href="https://github.com/JSGforever/APSFuzz" class="project-link github-link" target="_blank">🔗GitHub</a>
+## APSFuzz (Contributor)
+
+<a href="https://github.com/JSGforever/APSFuzz" class="project-link github-link" target="_blank">🔗GitHub</a>
 
 *2024*
 

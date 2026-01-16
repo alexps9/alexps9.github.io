@@ -192,33 +192,43 @@ h1:before, .anchor:before {
 
 /* GitHub specific link style */
 .project-link.github-link {
-    background: #1f2328;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    background: #1f2328 !important;
+    border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) !important;
     color: #ffffff !important;
     font-weight: 600;
     padding: 0.4em 0.9em;
     letter-spacing: 0.02em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    display: inline-block;
 }
 
 .project-link.github-link:hover {
-    background: #2d3339;
-    border-color: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    background: #2d3339 !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
     color: #ffffff !important;
     transform: translateY(-2px);
 }
 
 .project-link.github-link:active {
     transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-    background: #1f2328;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) !important;
+    background: #1f2328 !important;
 }
 
 /* Ensure emoji and text are visible in GitHub links */
+.project-link.github-link,
 .project-link.github-link * {
     color: #ffffff !important;
     opacity: 1 !important;
+}
+
+/* Override any heading styles that might affect the link */
+h2 + .project-link.github-link,
+h3 + .project-link.github-link {
+    margin-top: 0.5em;
 }
 
 /* Music Page Styles */
