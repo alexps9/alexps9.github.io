@@ -24,11 +24,10 @@ Greeting! Welcome to my page.
 
 Hello, I'm **Songyang Peng**. I received my **B.S. in Computer Science (Elite Class)** from **Tianjin University**, and I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://www.cs.ucsb.edu/people/faculty/wenbo-guo)**.
 
-My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**. 
+My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**. During my time at **Fudan University**, I worked mainly under the guidance of **[Jiarun Dai](https://djrrr.github.io/)** and **[Yuan Zhang](https://yuanxzhang.github.io/)**. 
 
 Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](https://www.volcengine.com/product/ark)**, mentored by **[Meng Wang](https://mengwangbupt.github.io/)**, contributing to high-performance LLM serving and agent infrastructure. Before that, I was an AI Research Intern at **[Tencent, IEG](https://www.tencent.com/en-us/)**, where I developed generative scene creation tools in Unreal Engine using LLMs and procedural content generation (PCG).
 # 🔥 News
-
 * \[_2026_\] 🎉 One paper accepted by **ICML 2026** on Darwinian memory for GUI agent evolution.
 * \[_2025_\] 🎉 One paper accepted by **USENIX Security 2026** on agent-based DoS attacks.
 * \[_2025.04_\] 🎉 Started as LLM Inference Engineer Intern at **ByteDance**.
@@ -66,7 +65,7 @@ _Manuscript under review._
 # 📖 Education
 
 * _Fall 2026 (incoming)_, **Ph.D. in Computer Science**, University of California, Santa Barbara. Advisor: **Wenbo Guo**.
-* _2023.09 - now_, **M.S. in Computer Science**, Fudan University, School of Computer Science and Technology, Shanghai, China.
+* _2023.09 - now_, **M.S. in Computer Science**, Fudan University, School of Computer Science and Technology, Shanghai, China. Advisors: **[Jiarun Dai](https://djrrr.github.io/)**, **[Yuan Zhang](https://yuanxzhang.github.io/)**.
 * _2019.09 - 2023.06_, **B.S. in Computer Science (Elite Class)**, Tianjin University, School of Future Technology, Tianjin, China.
 
 # 🏆 Selected Competitions
@@ -78,3 +77,7 @@ _Manuscript under review._
 
 * _2025.04 - 2025.10_, **LLM Inference Engineer Intern**, ByteDance (Ark), Shanghai, China. Mentor: **[Meng Wang](https://mengwangbupt.github.io/)**.
 * _2024.12 - 2025.03_, **AI Research Intern, Game & Engine Intelligence**, Tencent IEG, Shanghai, China.
+
+# 🤝 Professional Service
+
+* **Workshop reviewer**, [Agents in the Wild](https://agentwild-workshop.github.io/icml2026/) (ICML 2026), May 2026.
