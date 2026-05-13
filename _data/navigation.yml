@@ -3,11 +3,5 @@ main:
   - title: "Projects"
     url: "/projects/"
 
-  - title: "Start-Up"
-    url: "/startup/"
-
   - title: "Blog"
     url: "/blog/"
-
-  - title: "Music"
-    url: "/music/"
