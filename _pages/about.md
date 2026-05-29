@@ -63,7 +63,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
   _Manuscript under review._
 
 * <span class="conference-badge" style="background-color: #B31B1B; color: white;">Preprint</span> **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\]  
-  Jiaqi Luo<sup>†*</sup>, **Songyang Peng**<sup>†*</sup>, Jiarun Dai<sup>†§</sup>, Zhile Chen<sup>†</sup>, Zhuoxiang Shen<sup>†</sup>, Geng Hong<sup>†</sup>, Xudong Pan<sup>†‡</sup>, Yuan Zhang<sup>†</sup>, Min Yang<sup>†</sup>  
+  Jiaqi Luo<sup>*</sup>, **Songyang Peng**<sup>*</sup>, Jiarun Dai, Zhile Chen, Zhuoxiang Shen, Geng Hong, Xudong Pan, Yuan Zhang, Min Yang  
   <sup>*</sup> *Equal contribution (Co-first authors).*  
   _Preprint._
 
