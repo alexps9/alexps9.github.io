@@ -51,15 +51,21 @@ In _Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (Veh
 
 * <span class="conference-badge conference-tosem">TOSEM'26</span> **BHUNTER: Generating Blind-Spot Driving Scenarios for Robustness Testing of Perception Systems** \[PDF\]  
 **Songyang Peng**, Jiarun Dai, Yanghao Lv, Jiaqi Luo, Zongan Huang, Yuan Zhang, Min Yang.  
-_ACM Transactions on Software Engineering and Methodology (TOSEM)_, under review.
+_ACM Transactions on Software Engineering and Methodology (TOSEM)_, major.
 
 * <span class="conference-badge conference-tifs">IEEE TIFS</span> **Facilitating Logical Flaw Detection for Autonomous Driving Systems through LLM-Empowered Oracle Generation** \[PDF\]  
 Zongan Huang, Jiarun Dai, Jiaqi Luo, Qifan Xiao, **Songyang Peng**, Xudong Pan, Yuan Zhang, Min Yang.  
-_IEEE Transactions on Information Forensics and Security (TIFS)_, under review.
+_IEEE Transactions on Information Forensics and Security (TIFS)_, major.
 
 * <span class="conference-badge conference-under-review">Under review</span> **Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs** \[PDF\]  
 **Songyang Peng**, Ruoyu Fang, Xinfeng Yuan, Haidong Zheng, Zesong Yang, Ruijie Wang, Hongze Mi, Yilan Guo, Linxiao Zhou.  
 _Manuscript under review._
+
+* <span class="conference-badge conference-preprint">Preprint</span> **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\]  
+  Jiaqi Luo<sup>†*</sup>, **Songyang Peng**<sup>†*</sup>, Jiarun Dai<sup>†§</sup>, Zhile Chen<sup>†</sup>, Zhuoxiang Shen<sup>†</sup>, Geng Hong<sup>†</sup>, Xudong Pan<sup>†‡</sup>, Yuan Zhang<sup>†</sup>, Min Yang<sup>†</sup>  
+  <sup>*</sup> *Equal contribution (Co-first authors).*  
+  _Preprint._
+
 
 
 # 📖 Education
