@@ -9,6 +9,16 @@ author_profile: false
 
 Here are some of my selected projects. More details coming soon!
 
+## AgentGuard: Access Control Framework for LLM Agents (Primary Contributor)
+
+<a href="https://github.com/WhitzardAgent/AgentGuard" class="project-link github-link" target="_blank">🔗GitHub</a> | <a href="https://arxiv.org/pdf/2605.28071" class="project-link paper-link" target="_blank">📄Paper</a>
+
+*2026*
+
+AgentGuard is an attribute-based access control (ABAC) framework designed specifically for tool-use LLM-based agents. As autonomous agents increasingly interact with external tools and APIs, ensuring secure and fine-grained permission management becomes critical. AgentGuard dynamically evaluates agent identities, tool requirements, and environmental contexts to enforce strict access policies. It effectively mitigates security risks such as unauthorized tool execution, privilege escalation, and sensitive data leakage, providing a robust, plug-and-play security layer for modern agentic workflows.
+
+**Technologies**: Python, LLM Agents, Attribute-Based Access Control (ABAC), AI Security
+
 ## xLLM: High-Performance LLM Inference Framework (Contributor)
 
 *2025*
