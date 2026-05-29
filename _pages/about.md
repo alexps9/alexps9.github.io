@@ -38,11 +38,11 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 # 📝 Publications
 
-* <span class="conference-badge conference-usenix-security">USENIX Security'26</span> **Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents** \[PDF\]  
+* <span class="conference-badge conference-usenix-security">USENIX Security'26</span> **Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents** \[[PDF](https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_luo.pdf)\]  
   Jiaqi Luo, Jiarun Dai, Fengyu Liu, **Songyang Peng**, Youkun Shi, Tong Bu, Geng Hong, Xudong Pan, Yuan Zhang.  
   In _Proceedings of the 35th USENIX Security Symposium (USENIX Security)_, Baltimore, MD, USA, August 12-14, 2026. (CCF-A)
 
-* <span class="conference-badge conference-icml">ICML'26</span> **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** \[PDF\]  
+* <span class="conference-badge conference-icml">ICML'26</span> **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** \[[PDF](https://arxiv.org/pdf/2601.22528)\]  
   Hongze Mi, Yibo Feng, WenJie Lu, Song Cao, Jinyuan Li, Yanming Li, Xuelin Zhang, Haotian Luo, **Songyang Peng**, He Cui, Tengfei Tian, Jun Fang, Hua Chai, Naiqiang Tan.  
   In _Proceedings of the International Conference on Machine Learning (ICML)_, 2026.
 
