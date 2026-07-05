@@ -130,6 +130,19 @@ h1:before, .anchor:before {
     margin: 0.35em 0 0.5em;
 }
 
+.publications-note {
+    font-size: 0.45em;
+    font-weight: 400;
+    margin-left: 0.6em;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    em {
+        font-style: italic;
+        color: #666;
+    }
+}
+
 /* USENIX Security - Orange/Red */
 .conference-usenix-security {
     background-color: #d97706; /* Orange-600 */

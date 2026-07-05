@@ -40,7 +40,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 </div>
 
-# 📝 Publications
+# 📝 Publications <span class="publications-note"><sup>&#42;</sup> <em>Equal contribution (Co-first authors).</em></span>
 
 * **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\] \[[GitHub](https://github.com/WhitzardAgent/AgentGuard)\]<br/>
   <span class="conference-badge conference-preprint">Preprint</span><br/>
@@ -50,7 +50,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 * **Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs** \[PDF\]<br/>
   <span class="conference-badge conference-kdd-workshop">Agentic AI for Scientific and Societal Advances 26'</span><br/>
   **Songyang Peng**, Ruoyu Fang, Xinfeng Yuan, Haidong Zheng, Zesong Yang, Ruijie Wang, Hongze Mi, Yilan Guo, Linxiao Zhou.<br/>
-  **Oral** at _KDD 2026 Workshop on SciSoc Agents & LLMs_; manuscript under review.
+   _KDD 2026 Workshop on SciSoc Agents & LLMs_ (**Oral**); manuscript under review.
 
 * **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** \[[PDF](https://arxiv.org/pdf/2601.22528)\]<br/>
   <span class="conference-badge conference-icml">ICML'26</span><br/>
@@ -76,8 +76,6 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
   <span class="conference-badge conference-tifs">IEEE TIFS'26</span><br/>
   Zongan Huang, Jiarun Dai, Jiaqi Luo, Qifan Xiao, **Songyang Peng**, Xudong Pan, Yuan Zhang, Min Yang.<br/>
   _IEEE Transactions on Information Forensics and Security (TIFS)_, major revision.
-
-<sup>&#42;</sup> *Equal contribution (Co-first authors).*
 
 # 📖 Education
 
