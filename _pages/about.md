@@ -21,7 +21,7 @@ redirect_from:
 
 Hello, I'm **Songyang Peng**. My research interests include **Agentic AI**, **Machine Learning System**, and **AI System Security**.
 
-I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://henrygwb.github.io/)**. I received my **M.S. in Computer Science** from **Fudan University**, where I worked mainly under the guidance of **[Jiarun Dai](https://djrrr.github.io/)** and **[Yuan Zhang](https://yuanxzhang.github.io/)**. I received my **B.S. in Computer Science (Elite Class)** from **Tianjin University**, where I was advised by **[Yu Mei](https://cic.tju.edu.cn/faculty/yumei/index.html)**.
+I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://henrygwb.github.io/)**. I received my **M.S. in Computer Science** from **[Fudan University](https://www.fudan.edu.cn/)**, where I worked mainly under the guidance of **[Jiarun Dai](https://djrrr.github.io/)** and **[Yuan Zhang](https://yuanxzhang.github.io/)**. I received my **B.S. in Computer Science (Elite Class)** from **[Tianjin University](https://www.tju.edu.cn/)**, where I was advised by **[Yu Mei](https://cic.tju.edu.cn/faculty/yumei/index.html)**.
 
 Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](https://www.volcengine.com/product/ark)**, mentored by **[Meng Wang](https://mengwangbupt.github.io/)**, contributing to high-performance LLM serving and agent infrastructure. Before that, I was an AI Research Intern at **[Tencent, IEG](https://www.tencent.com/en-us/)**.
 
@@ -34,6 +34,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 * \[_2026.05_\] 🧐 Served as a **reviewer** for the [Second Workshop on Agents in the Wild: Safety, Security, and Beyond](https://agentwild-workshop.github.io/icml2026/) at **ICML 2026**.
 * \[_2026_\] 🎉 One paper accepted by **ICML 2026** on Darwinian memory for GUI agent evolution.
 * \[_2025_\] 🎉 One paper accepted by **USENIX Security 2026** on agent-based DoS attacks.
+* \[_2025.03_\] 🎓 Accepted to the **Computer Science Ph.D. program** at **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will join **[Wenbo Guo](https://henrygwb.github.io/)**'s group. See you in Santa Barbara! 🌊
 * \[_2025.04_\] 🎉 Started as LLM Inference Engineer Intern at **ByteDance**.
 * \[_2024.12_\] 🎉 Selected for Tencent's **Game-Engine Computer Graphics Practice Elite Talent Program** as an AI Research Intern. 
 * \[_2024_\] 🎉 One paper accepted by **USENIX VehicleSec 2026** on fuzzing-based testing for autonomous driving.
