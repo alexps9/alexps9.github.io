@@ -19,7 +19,7 @@ redirect_from:
 
 # 🗺️ About Me
 
-Hello, I'm **Songyang Peng**. My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**.
+Hello, I'm **Songyang Peng**. My research interests include **Agentic AI**, **Machine Learning System**, and **AI System Security**.
 
 I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://henrygwb.github.io/)**. I received my **M.S. in Computer Science** from **Fudan University**, where I worked mainly under the guidance of **[Jiarun Dai](https://djrrr.github.io/)** and **[Yuan Zhang](https://yuanxzhang.github.io/)**. I received my **B.S. in Computer Science (Elite Class)** from **Tianjin University**, where I was advised by **[Yu Mei](https://cic.tju.edu.cn/faculty/yumei/index.html)**.
 
