@@ -29,16 +29,6 @@ Deployed internally at ByteDance to serve commercial workloads (not open-sourced
 
 **Technologies**: C++, Python, CUDA, Ray
 
-## Ark Simulation Inference System
-
-*2025*
-
-A modular simulation engine for multi-scenario inference (three-graph, dual-graph, and PD-separation pipelines) used for fault injection and resilience testing of production systems. Enhanced online model registration, health probing, and zero-downtime deployment via K8s HPA and custom metrics. 
-
-Deployed internally at ByteDance to serve commercial workloads (not open-sourced, 😞).
-
-**Technologies**: Kubernetes, gRPC, Python, Go, Ray
-
 ## Instaworld
 
 <a href="https://github.com/alexps9/InstaWorld" class="project-link github-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>

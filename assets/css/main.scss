@@ -125,6 +125,11 @@ h1:before, .anchor:before {
     margin: 0.4em 0 0.55em;
 }
 
+.page__content li .conference-badge {
+    display: inline-block;
+    margin: 0.35em 0 0.5em;
+}
+
 /* USENIX Security - Orange/Red */
 .conference-usenix-security {
     background-color: #d97706; /* Orange-600 */
@@ -193,6 +198,13 @@ h1:before, .anchor:before {
         background: #c0c0c0;
         border-radius: 3px;
     }
+}
+
+/* ClustrMaps visitor widget */
+.clustrmaps-widget {
+    margin-top: 2em;
+    text-align: center;
+    min-height: 160px;
 }
 
 /* Project links styling */
