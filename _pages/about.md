@@ -22,20 +22,24 @@ Greeting! Welcome to my page.
 
 # 🗺️ About Me
 
-Hello, I'm **Songyang Peng**. I received my **B.S. in Computer Science (Elite Class)** from **Tianjin University**, and I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://www.cs.ucsb.edu/people/faculty/wenbo-guo)**.
+Hello, I'm **Songyang Peng**. I received my **B.S. in Computer Science (Elite Class)** from **Tianjin University**, where I was advised by **[Yu Mei (喻梅)](https://cic.tju.edu.cn/faculty/yumei/index.html)**, and I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://www.cs.ucsb.edu/people/faculty/wenbo-guo)**.
 
 My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**. During my time at **Fudan University**, I worked mainly under the guidance of **[Jiarun Dai](https://djrrr.github.io/)** and **[Yuan Zhang](https://yuanxzhang.github.io/)**. 
 
 Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](https://www.volcengine.com/product/ark)**, mentored by **[Meng Wang](https://mengwangbupt.github.io/)**, contributing to high-performance LLM serving and agent infrastructure. Before that, I was an AI Research Intern at **[Tencent, IEG](https://www.tencent.com/en-us/)**, where I developed generative scene creation tools in Unreal Engine using LLMs and procedural content generation (PCG).
 
-# 🔥 News
+<details class="news-collapsible" markdown="1">
+<summary>🔥 News</summary>
+
+* \[_2026.06_\] 🎓 I successfully defended my master's thesis and graduated! Thanks to my advisors Prof. **[Jiarun Dai](https://djrrr.github.io/)**! 🙏
+* \[_2026.05_\] Served as a **reviewer** for the [Second Workshop on Agents in the Wild: Safety, Security, and Beyond](https://agentwild-workshop.github.io/icml2026/) at **ICML 2026**.
 * \[_2026_\] 🎉 One paper accepted by **ICML 2026** on Darwinian memory for GUI agent evolution.
 * \[_2025_\] 🎉 One paper accepted by **USENIX Security 2026** on agent-based DoS attacks.
 * \[_2025.04_\] 🎉 Started as LLM Inference Engineer Intern at **ByteDance**.
 * \[_2024.12_\] 🎉 Selected for Tencent's **Game-Engine Computer Graphics Practice Elite Talent Program** as an AI Research Intern. 
 * \[_2024_\] 🎉 One paper accepted by **USENIX VehicleSec 2026** on fuzzing-based testing for autonomous driving.
 
-
+</details>
 # 📝 Publications
 
 * <span class="conference-badge conference-usenix-security">USENIX Security'26</span> **Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents** \[[PDF](https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_luo.pdf)\]  
@@ -58,11 +62,11 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
   Zongan Huang, Jiarun Dai, Jiaqi Luo, Qifan Xiao, **Songyang Peng**, Xudong Pan, Yuan Zhang, Min Yang.  
   _IEEE Transactions on Information Forensics and Security (TIFS)_, major.
 
-* <span class="conference-badge conference-under-review">Under review</span> **Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs** \[PDF\]  
+* <span class="conference-badge conference-under-review">Under review</span> <span class="conference-badge conference-kdd">KDD'26 Workshop</span> **Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs** \[PDF\]  
   **Songyang Peng**, Ruoyu Fang, Xinfeng Yuan, Haidong Zheng, Zesong Yang, Ruijie Wang, Hongze Mi, Yilan Guo, Linxiao Zhou.  
-  _Manuscript under review._
+  Selected as **Oral** at _KDD 2026 Workshop on SciSoc Agents & LLMs_; manuscript under review.
 
-* <span class="conference-badge" style="background-color: #B31B1B; color: white;">Preprint</span> **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\]  
+* <span class="conference-badge" style="background-color: #B31B1B; color: white;">Preprint</span> **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\] \[[GitHub](https://github.com/WhitzardAgent/AgentGuard)\]  
   Jiaqi Luo<sup>&#42;</sup>, **Songyang Peng**<sup>&#42;</sup>, Jiarun Dai, Zhile Chen, Zhuoxiang Shen, Geng Hong, Xudong Pan, Yuan Zhang, Min Yang  
   <sup>&#42;</sup> *Equal contribution (Co-first authors).*  
   _Preprint._
@@ -70,8 +74,8 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 # 📖 Education
 
 * _Fall 2026 (incoming)_, **Ph.D. in Computer Science**, University of California, Santa Barbara. Advisor: **Wenbo Guo**.
-* _2023.09 - now_, **M.S. in Computer Science**, Fudan University, School of Computer Science and Technology, Shanghai, China. Advisors: **[Jiarun Dai](https://djrrr.github.io/)**, **[Yuan Zhang](https://yuanxzhang.github.io/)**.
-* _2019.09 - 2023.06_, **B.S. in Computer Science (Elite Class)**, Tianjin University, School of Future Technology, Tianjin, China.
+* _2023.09 - 2026.06_, **M.S. in Computer Science**, Fudan University, School of Computer Science and Technology, Shanghai, China. Advisors: **[Jiarun Dai](https://djrrr.github.io/)**, **[Yuan Zhang](https://yuanxzhang.github.io/)**.
+* _2019.09 - 2023.06_, **B.S. in Computer Science (Elite Class)**, Tianjin University, School of Future Technology, Tianjin, China. Advisor: **[Yu Mei](https://cic.tju.edu.cn/faculty/yumei/index.html)**.
 
 # 🏆 Selected Competitions
 

@@ -156,6 +156,48 @@ h1:before, .anchor:before {
     background-color: #64748b; /* Slate-500 */
 }
 
+/* KDD Workshop */
+.conference-kdd {
+    background-color: #ea580c; /* Orange-600 */
+}
+
+/* Collapsible News */
+.news-collapsible {
+    margin: 1.5em 0 2em;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.5em 1em 0.25em;
+    background: #fafafa;
+
+    summary {
+        cursor: pointer;
+        font-size: 1.5em;
+        font-weight: 600;
+        padding: 0.4em 0;
+        list-style: none;
+        user-select: none;
+
+        &::-webkit-details-marker {
+            display: none;
+        }
+
+        &::before {
+            content: "▸ ";
+            display: inline-block;
+            transition: transform 0.2s ease;
+        }
+    }
+
+    &[open] summary::before {
+        transform: rotate(90deg);
+    }
+
+    ul {
+        margin-top: 0.75em;
+        padding-left: 1.25em;
+    }
+}
+
 /* Project links styling */
 .project-link {
     display: inline-block;

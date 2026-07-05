@@ -11,7 +11,7 @@ Here are some of my selected projects. More details coming soon!
 
 ## AgentGuard: Access Control Framework for LLM Agents (Primary Contributor)
 
-<a href="https://github.com/WhitzardAgent/AgentGuard" class="project-link github-link" target="_blank">🔗GitHub</a> | <a href="https://arxiv.org/pdf/2605.28071" class="project-link paper-link" target="_blank">📄Paper</a>
+<a href="https://github.com/WhitzardAgent/AgentGuard" class="project-link github-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a> | <a href="https://arxiv.org/pdf/2605.28071" class="project-link paper-link" target="_blank" rel="noopener noreferrer">📄 Paper</a>
 
 *2026*
 
@@ -41,7 +41,7 @@ Deployed internally at ByteDance to serve commercial workloads (not open-sourced
 
 ## Instaworld
 
-<a href="https://github.com/alexps9/InstaWorld" class="project-link github-link" target="_blank">🔗GitHub</a>
+<a href="https://github.com/alexps9/InstaWorld" class="project-link github-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
 
 *2024*
 
