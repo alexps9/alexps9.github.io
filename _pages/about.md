@@ -40,7 +40,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 </div>
 
-# 📝 Publications <span class="publications-note"><sup>&#42;</sup> <em>Equal contribution (Co-first authors).</em></span>
+# 📝 Publications <span class="publications-note">(<sup>&#42;</sup> denotes Co-first authors)</span>
 
 * **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\] \[[GitHub](https://github.com/WhitzardAgent/AgentGuard)\]<br/>
   <span class="conference-badge conference-preprint">Preprint</span><br/>
