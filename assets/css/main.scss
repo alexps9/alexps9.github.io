@@ -112,13 +112,13 @@ h1:before, .anchor:before {
 .conference-badge {
     display: inline-block;
     padding: 0.25em 0.6em;
-    margin-right: 0.5em;
+    margin: 0.35em 0 0.5em;
     border-radius: 4px;
     font-size: 0.85em;
     font-weight: 600;
     color: white;
     text-align: center;
-    white-space: nowrap;
+    line-height: 1.3;
 }
 
 /* USENIX Security - Orange/Red */
@@ -151,50 +151,43 @@ h1:before, .anchor:before {
     background-color: #475569; /* Slate-600 */
 }
 
-/* Anonymous / venue-undisclosed under review */
-.conference-under-review {
-    background-color: #64748b; /* Slate-500 */
-}
-
 /* KDD Workshop */
-.conference-kdd {
+.conference-kdd-workshop {
     background-color: #ea580c; /* Orange-600 */
+    white-space: normal;
+    max-width: 100%;
 }
 
-/* Collapsible News */
-.news-collapsible {
-    margin: 1.5em 0 2em;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    padding: 0.5em 1em 0.25em;
-    background: #fafafa;
+/* Preprint */
+.conference-preprint {
+    background-color: #B31B1B;
+}
 
-    summary {
-        cursor: pointer;
-        font-size: 1.5em;
-        font-weight: 600;
-        padding: 0.4em 0;
-        list-style: none;
-        user-select: none;
-
-        &::-webkit-details-marker {
-            display: none;
-        }
-
-        &::before {
-            content: "▸ ";
-            display: inline-block;
-            transition: transform 0.2s ease;
-        }
-    }
-
-    &[open] summary::before {
-        transform: rotate(90deg);
-    }
+/* Scrollable News (reference: academic homepage style) */
+.news-scroll {
+    max-height: 14em;
+    overflow-y: auto;
+    margin: 0.5em 0 2em;
+    padding: 0.25em 0.5em 0.25em 0;
+    border-left: 3px solid #e0e0e0;
 
     ul {
-        margin-top: 0.75em;
+        margin: 0;
         padding-left: 1.25em;
+    }
+
+    li {
+        margin-bottom: 0.6em;
+        line-height: 1.5;
+    }
+
+    &::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #c0c0c0;
+        border-radius: 3px;
     }
 }
 
