@@ -29,6 +29,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 <div class="news-scroll" markdown="1">
 
+* \[_2026_\] 🎤 I will give an **Oral** talk at **KDD 2026** on *Amour*. See you in Jeju! 🌊
 * \[_2026.06_\] 🎓 I successfully defended my master's thesis and graduated! Thanks to my advisors Prof. **[Jiarun Dai](https://djrrr.github.io/)**! 🙏
 * \[_2026.05_\] Served as a **reviewer** for the [Second Workshop on Agents in the Wild: Safety, Security, and Beyond](https://agentwild-workshop.github.io/icml2026/) at **ICML 2026**.
 * \[_2026_\] 🎉 One paper accepted by **ICML 2026** on Darwinian memory for GUI agent evolution.
@@ -49,7 +50,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 * **Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs** \[PDF\]<br/>
   <span class="conference-badge conference-kdd-workshop">Agentic AI for Scientific and Societal Advances 26'</span><br/>
   **Songyang Peng**, Ruoyu Fang, Xinfeng Yuan, Haidong Zheng, Zesong Yang, Ruijie Wang, Hongze Mi, Yilan Guo, Linxiao Zhou.<br/>
-  Selected as **Oral** at _KDD 2026 Workshop on SciSoc Agents & LLMs_; manuscript under review.
+  **Oral** at _KDD 2026 Workshop on SciSoc Agents & LLMs_; manuscript under review.
 
 * **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** \[[PDF](https://arxiv.org/pdf/2601.22528)\]<br/>
   <span class="conference-badge conference-icml">ICML'26</span><br/>
