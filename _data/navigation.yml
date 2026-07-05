@@ -1,7 +1,3 @@
 # main links links
-main:
-  - title: "Projects"
-    url: "/projects/"
-
-  - title: "Blog"
-    url: "/blog/"
+# Projects and Blog temporarily hidden from nav (pages kept at /projects/ and /blog/)
+main: []
