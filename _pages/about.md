@@ -22,11 +22,11 @@ Greeting! Welcome to my page.
 
 # 🗺️ About Me
 
-Hello, I'm **Songyang Peng**. I received my **B.S. in Computer Science (Elite Class)** from **Tianjin University**, where I was advised by **[Yu Mei (喻梅)](https://cic.tju.edu.cn/faculty/yumei/index.html)**, and I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://www.cs.ucsb.edu/people/faculty/wenbo-guo)**.
+Hello, I'm **Songyang Peng**. My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**.
 
-My research interests include **AI System Security**, **AI Safety**, and **LLM inference systems**. During my time at **Fudan University**, I worked mainly under the guidance of **[Jiarun Dai](https://djrrr.github.io/)** and **[Yuan Zhang](https://yuanxzhang.github.io/)**. 
+I am an incoming **Ph.D. student (Fall 2026)** in **Computer Science** at the **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will be advised by **[Wenbo Guo](https://www.cs.ucsb.edu/people/faculty/wenbo-guo)**. I received my **M.S. in Computer Science** from **Fudan University**, where I worked mainly under the guidance of **[Jiarun Dai](https://djrrr.github.io/)** and **[Yuan Zhang](https://yuanxzhang.github.io/)**. I received my **B.S. in Computer Science (Elite Class)** from **Tianjin University**, where I was advised by **[Yu Mei](https://cic.tju.edu.cn/faculty/yumei/index.html)**.
 
-Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](https://www.volcengine.com/product/ark)**, mentored by **[Meng Wang](https://mengwangbupt.github.io/)**, contributing to high-performance LLM serving and agent infrastructure. Before that, I was an AI Research Intern at **[Tencent, IEG](https://www.tencent.com/en-us/)**, where I developed generative scene creation tools in Unreal Engine using LLMs and procedural content generation (PCG).
+Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](https://www.volcengine.com/product/ark)**, mentored by **[Meng Wang](https://mengwangbupt.github.io/)**, contributing to high-performance LLM serving and agent infrastructure. Before that, I was an AI Research Intern at **[Tencent, IEG](https://www.tencent.com/en-us/)**.
 
 <details class="news-collapsible" markdown="1">
 <summary>🔥 News</summary>
@@ -44,7 +44,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 * <span class="conference-badge conference-usenix-security">USENIX Security'26</span> **Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents** \[[PDF](https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_luo.pdf)\]  
   Jiaqi Luo, Jiarun Dai, Fengyu Liu, **Songyang Peng**, Youkun Shi, Tong Bu, Geng Hong, Xudong Pan, Yuan Zhang.  
-  In _Proceedings of the 35th USENIX Security Symposium (USENIX Security)_, Baltimore, MD, USA, August 12-14, 2026. (CCF-A)
+  In _Proceedings of the 35th USENIX Security Symposium (USENIX Security)_, Baltimore, MD, USA, August 12-14, 2026. 
 
 * <span class="conference-badge conference-icml">ICML'26</span> **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** \[[PDF](https://arxiv.org/pdf/2601.22528)\]  
   Hongze Mi, Yibo Feng, WenJie Lu, Song Cao, Jinyuan Li, Yanming Li, Xuelin Zhang, Haotian Luo, **Songyang Peng**, He Cui, Tengfei Tian, Jun Fang, Hua Chai, Naiqiang Tan.  
