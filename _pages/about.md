@@ -31,7 +31,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 * \[_2026.08_\] 🎤 I will give an **Oral** talk at **KDD 2026** on *Amour*. See you in Jeju! 🌊
 * \[_2026.07_\] 👥 I will attend **ICML 2026** with my co-authors on *Darwinian Memory*. See you in Seoul! 🏙️
-* \[_2026.06_\] 🎓 I successfully defended my master's thesis and graduated! Thanks to my advisor Prof. **[Jiarun Dai](https://djrrr.github.io/)**! 🙏
+* \[_2026.05_\] 🎓 I successfully defended my master's thesis and graduated! Thanks to my advisor Prof. **[Jiarun Dai](https://djrrr.github.io/)**! 🙏
 * \[_2026.05_\] 🧐 Served as a **reviewer** for the [Second Workshop on Agents in the Wild: Safety, Security, and Beyond](https://agentwild-workshop.github.io/icml2026/) at **ICML 2026**.
 * \[_2026_\] 🎉 One paper accepted by **ICML 2026** on Darwinian memory for GUI agent evolution.
 * \[_2025_\] 🎉 One paper accepted by **USENIX Security 2026** on agent-based DoS attacks.
