@@ -44,39 +44,32 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 # 📝 Publications <span class="publications-note"><sup>&#42;</sup> <em>Equal contribution (Co-first authors).</em></span>
 
-* **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\] \[[GitHub](https://github.com/WhitzardAgent/AgentGuard)\]<br/>
+* <span class="conference-badge conference-preprint">Preprint</span> **AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent** \[[PDF](https://arxiv.org/pdf/2605.28071)\] \[[GitHub](https://github.com/WhitzardAgent/AgentGuard)\]<br/>
   Jiaqi Luo<sup>&#42;</sup>, **Songyang Peng**<sup>&#42;</sup>, Jiarun Dai, Zhile Chen, Zhuoxiang Shen, Geng Hong, Xudong Pan, Yuan Zhang, Min Yang.<br/>
-  <span class="conference-badge conference-preprint">Preprint</span><br/>
   _Stay tunned._
 
-* **Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs** \[PDF\]<br/>
+* <span class="conference-badge conference-kdd-workshop">SciSoc Agents & LLMs 26'</span> **Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs** \[PDF\]<br/>
   **Songyang Peng**, Ruoyu Fang, Xinfeng Yuan, Haidong Zheng, Zesong Yang, Ruijie Wang, Hongze Mi, Yilan Guo, Linxiao Zhou.<br/>
-  <span class="conference-badge conference-kdd-workshop">Agentic AI for Scientific and Societal Advances 26'</span><br/>
   _KDD 2026 Workshop on SciSoc Agents & LLMs_ (**Oral**); manuscript under review.
 
-* **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** \[[PDF](https://arxiv.org/pdf/2601.22528)\]<br/>
+* <span class="conference-badge conference-icml">ICML'26</span> **Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution** \[[PDF](https://arxiv.org/pdf/2601.22528)\]<br/>
   Hongze Mi, Yibo Feng, WenJie Lu, Song Cao, Jinyuan Li, Yanming Li, Xuelin Zhang, Haotian Luo, **Songyang Peng**, He Cui, Tengfei Tian, Jun Fang, Hua Chai, Naiqiang Tan.<br/>
-  <span class="conference-badge conference-icml">ICML'26</span><br/>
   In _Proceedings of the International Conference on Machine Learning (ICML)_, 2026.
 
-* **Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents** \[[PDF](https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_luo.pdf)\]<br/>
+* <span class="conference-badge conference-usenix-security">USENIX Security'26</span> **Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents** \[[PDF](https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_luo.pdf)\]<br/>
   Jiaqi Luo, Jiarun Dai, Fengyu Liu, **Songyang Peng**, Youkun Shi, Tong Bu, Geng Hong, Xudong Pan, Yuan Zhang.<br/>
-  <span class="conference-badge conference-usenix-security">USENIX Security'26</span><br/>
   In _Proceedings of the 35th USENIX Security Symposium (USENIX Security)_, Baltimore, MD, USA, August 12-14, 2026.
 
-* **APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems** \[[PDF](https://www.usenix.org/system/files/vehiclesec25-bu.pdf)\]<br/>
+* <span class="conference-badge conference-vehiclesec">VehicleSec'25</span> **APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems** \[[PDF](https://www.usenix.org/system/files/vehiclesec25-bu.pdf)\]<br/>
   Tong Bu, Jiarun Dai, Jiaqi Luo, **Songyang Peng**, Zongan Huang, Min Yang.<br/>
-  <span class="conference-badge conference-vehiclesec">VehicleSec'25</span><br/>
   In _Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (VehicleSec)_, 2025, pages 289-296.
 
-* **BHUNTER: Generating Blind-Spot Driving Scenarios for Robustness Testing of Perception Systems** \[PDF\]<br/>
+* <span class="conference-badge conference-tosem">TOSEM'26</span> **BHUNTER: Generating Blind-Spot Driving Scenarios for Robustness Testing of Perception Systems** \[PDF\]<br/>
   **Songyang Peng**, Jiarun Dai, Yanghao Lv, Jiaqi Luo, Zongan Huang, Yuan Zhang, Min Yang.<br/>
-  <span class="conference-badge conference-tosem">TOSEM'26</span><br/>
   _ACM Transactions on Software Engineering and Methodology (TOSEM)_, major revision.
 
-* **Facilitating Logical Flaw Detection for Autonomous Driving Systems through LLM-Empowered Oracle Generation** \[PDF\]<br/>
+* <span class="conference-badge conference-tifs">IEEE TIFS'26</span> **Facilitating Logical Flaw Detection for Autonomous Driving Systems through LLM-Empowered Oracle Generation** \[PDF\]<br/>
   Zongan Huang, Jiarun Dai, Jiaqi Luo, Qifan Xiao, **Songyang Peng**, Xudong Pan, Yuan Zhang, Min Yang.<br/>
-  <span class="conference-badge conference-tifs">IEEE TIFS'26</span><br/>
   _IEEE Transactions on Information Forensics and Security (TIFS)_, major revision.
 
 # 📖 Education
