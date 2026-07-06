@@ -64,7 +64,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
       <img src="/images/experiences/bytedance.png" alt="ByteDance" loading="lazy" onerror="this.style.display='none';">
     </div>
     <div class="exp-card-body">
-      <p class="exp-card-org">ByteDance (Ark)</p>
+      <p class="exp-card-org">ByteDance Ark</p>
       <p class="exp-card-role">LLM Inference Engineer Intern</p>
       <p class="exp-card-mentor">Mentor: <a href="https://mengwangbupt.github.io/" target="_blank" rel="noopener noreferrer">Meng Wang</a></p>
       <p class="exp-card-period">2025.04 – 2025.10</p>
