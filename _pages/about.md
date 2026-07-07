@@ -60,31 +60,6 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
   <div class="exp-card">
     <div class="exp-card-icon">
-      <i class="fas fa-building" aria-hidden="true"></i>
-      <img src="/images/experiences/bytedance.png" alt="ByteDance" loading="lazy" onerror="this.style.display='none';">
-    </div>
-    <div class="exp-card-body">
-      <p class="exp-card-org">ByteDance Ark</p>
-      <p class="exp-card-role">LLM Inference Engineer Intern</p>
-      <p class="exp-card-mentor">Mentor: <a href="https://mengwangbupt.github.io/" target="_blank" rel="noopener noreferrer">Meng Wang</a></p>
-      <p class="exp-card-period">2025.04 – 2025.10</p>
-    </div>
-  </div>
-
-  <div class="exp-card">
-    <div class="exp-card-icon">
-      <i class="fas fa-building" aria-hidden="true"></i>
-      <img src="/images/experiences/tencent.png" alt="Tencent IEG" loading="lazy" onerror="this.style.display='none';">
-    </div>
-    <div class="exp-card-body">
-      <p class="exp-card-org">Tencent IEG</p>
-      <p class="exp-card-role">AI Research Intern, Game &amp; Engine Intelligence</p>
-      <p class="exp-card-period">2024.12 – 2025.03</p>
-    </div>
-  </div>
-
-  <div class="exp-card">
-    <div class="exp-card-icon">
       <i class="fas fa-university" aria-hidden="true"></i>
       <img src="/images/experiences/fudan.png" alt="Fudan University" loading="lazy" onerror="this.style.display='none';">
     </div>
@@ -106,6 +81,31 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
       <p class="exp-card-role">B.S. in Computer Science (Elite Class)</p>
       <p class="exp-card-mentor">Advisor: <a href="https://cic.tju.edu.cn/faculty/yumei/index.html" target="_blank" rel="noopener noreferrer">Yu Mei</a></p>
       <p class="exp-card-period">2019.09 – 2023.06</p>
+    </div>
+  </div>
+
+  <div class="exp-card">
+    <div class="exp-card-icon">
+      <i class="fas fa-building" aria-hidden="true"></i>
+      <img src="/images/experiences/bytedance.png" alt="ByteDance" loading="lazy" onerror="this.style.display='none';">
+    </div>
+    <div class="exp-card-body">
+      <p class="exp-card-org">ByteDance Ark</p>
+      <p class="exp-card-role">LLM Inference Engineer Intern</p>
+      <p class="exp-card-mentor">Mentor: <a href="https://mengwangbupt.github.io/" target="_blank" rel="noopener noreferrer">Meng Wang</a></p>
+      <p class="exp-card-period">2025.04 – 2025.10</p>
+    </div>
+  </div>
+
+  <div class="exp-card">
+    <div class="exp-card-icon">
+      <i class="fas fa-building" aria-hidden="true"></i>
+      <img src="/images/experiences/tencent.png" alt="Tencent IEG" loading="lazy" onerror="this.style.display='none';">
+    </div>
+    <div class="exp-card-body">
+      <p class="exp-card-org">Tencent IEG</p>
+      <p class="exp-card-role">AI Research Intern, Game &amp; Engine Intelligence</p>
+      <p class="exp-card-period">2024.12 – 2025.03</p>
     </div>
   </div>
 </div>
