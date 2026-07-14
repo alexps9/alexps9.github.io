@@ -103,7 +103,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     </div>
     <div class="exp-card-body">
       <p class="exp-card-org"><a href="https://www.tju.edu.cn/" target="_blank" rel="noopener noreferrer">Tianjin University</a></p>
-      <p class="exp-card-role">B.S. in Computer Science (Elite Class)</p>
+      <p class="exp-card-role">B.S. in Computer Science (Qiushi Class)</p>
       <p class="exp-card-mentor">Advisor: <a href="https://cic.tju.edu.cn/faculty/yumei/index.html" target="_blank" rel="noopener noreferrer">Yu Mei</a></p>
       <p class="exp-card-period">2019.09 – 2023.06</p>
     </div>
