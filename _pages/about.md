@@ -321,6 +321,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 # 🏆 Awards
 
+* 2023, **Outstanding Graduate**, [Tianjin University](https://qiushi.tju.edu.cn/).
 * 2021, Mathematical Contest in Modeling (MCM) **Honorable Mention**.
 * 2020, **1st Prize** in [China Collegiate Intelligent Robot Innovation Competition](https://compeition-excute.oss-cn-beijing.aliyuncs.com/edit/2020128/d566fa3724efd58f005f496eae128590/hqITo26V_1607437732597/%E7%AC%AC%E4%B8%89%E5%B1%8A%E4%B8%AD%E5%9B%BD%E9%AB%98%E6%A0%A1%E6%99%BA%E8%83%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%88%9B%E6%84%8F%E5%A4%A7%E8%B5%9B%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95%E5%85%AC%E7%A4%BA.pdf).
 
