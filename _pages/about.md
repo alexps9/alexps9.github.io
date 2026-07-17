@@ -185,25 +185,6 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 <div class="pub-card">
   <div class="pub-card-image">
     <i class="fas fa-file-alt" aria-hidden="true"></i>
-    <a href="/images/publications/apsfuzz.jpg" class="pub-card-zoom">
-      <img src="/images/publications/apsfuzz.jpg" alt="APSFUZZ teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/apsfuzz.png';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
-    </a>
-  </div>
-  <div class="pub-card-body">
-    <span class="conference-badge conference-vehiclesec">VehicleSec'25</span>
-    <p class="pub-card-title">APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems</p>
-    <p class="pub-card-authors">Tong Bu, Jiarun Dai, Jiaqi Luo, <strong>Songyang Peng</strong>, Zongan Huang, Min Yang.</p>
-    <p class="pub-card-note">In <em>Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (VehicleSec)</em>, 2025, pages 289-296.</p>
-    <div class="pub-card-links">
-      <a class="pub-link" href="https://www.usenix.org/system/files/vehiclesec25-bu.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
-      <a class="pub-link" href="https://github.com/JSGforever/APSFuzz" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="JSGforever/APSFuzz"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
-    </div>
-  </div>
-</div>
-
-<div class="pub-card">
-  <div class="pub-card-image">
-    <i class="fas fa-file-alt" aria-hidden="true"></i>
     <a href="/images/publications/bhunter.png" class="pub-card-zoom">
       <img src="/images/publications/bhunter.png" alt="BHUNTER teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/bhunter.jpg';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
     </a>
@@ -243,6 +224,28 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     <p class="pub-card-note"><em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, major revision.</p>
   </div>
 </div>
+
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/apsfuzz.jpg" class="pub-card-zoom">
+      <img src="/images/publications/apsfuzz.jpg" alt="APSFUZZ teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/apsfuzz.png';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-vehiclesec">VehicleSec'25</span>
+    <p class="pub-card-title">APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems</p>
+    <p class="pub-card-authors">Tong Bu, Jiarun Dai, Jiaqi Luo, <strong>Songyang Peng</strong>, Zongan Huang, Min Yang.</p>
+    <p class="pub-card-note">In <em>Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (VehicleSec)</em>, 2025, pages 289-296.</p>
+    <div class="pub-card-links">
+      <a class="pub-link" href="https://www.usenix.org/system/files/vehiclesec25-bu.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="pub-link" href="https://github.com/JSGforever/APSFuzz" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="JSGforever/APSFuzz"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
+    </div>
+  </div>
+</div>
+
+
+
 
 <script>
 (function () {
