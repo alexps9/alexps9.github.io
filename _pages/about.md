@@ -221,7 +221,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     <span class="conference-badge conference-tifs">IEEE TIFS'26</span>
     <p class="pub-card-title">Facilitating Logical Flaw Detection for Autonomous Driving Systems through LLM-Empowered Oracle Generation</p>
     <p class="pub-card-authors">Zongan Huang, Jiarun Dai, Jiaqi Luo, Qifan Xiao, <strong>Songyang Peng</strong>, Xudong Pan, Yuan Zhang, Min Yang.</p>
-    <p class="pub-card-note"><em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, major revision.</p>
+    <p class="pub-card-note"><em>IEEE Transactions on Information Forensics and Security (TIFS)</em>.</p>
   </div>
 </div>
 
