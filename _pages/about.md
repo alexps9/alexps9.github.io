@@ -193,7 +193,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     <span class="conference-badge conference-tosem">TOSEM'26</span>
     <p class="pub-card-title">BHUNTER: Generating Blind-Spot Driving Scenarios for Robustness Testing of Perception Systems</p>
     <p class="pub-card-authors"><strong>Songyang Peng</strong>, Jiarun Dai, Yanghao Lv, Jiaqi Luo, Zongan Huang, Yuan Zhang, Min Yang.</p>
-    <p class="pub-card-note"><em>ACM Transactions on Software Engineering and Methodology (TOSEM)</em>, major revision.</p>
+    <p class="pub-card-note"><em>ACM Transactions on Software Engineering and Methodology (TOSEM)</em>, revision.</p>
     <div class="pub-card-links">
       <button class="pub-link pub-link-demo" type="button" data-video-target="video-modal-bhunter"><i class="fas fa-play" aria-hidden="true"></i> Demo</button>
     </div>
