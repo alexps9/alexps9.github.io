@@ -126,6 +126,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     <p class="pub-card-note"><em>We welcome community contributions!</em></p>
     <div class="pub-card-links">
       <a class="pub-link" href="https://arxiv.org/pdf/2605.28071" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="pub-link" href="https://whitzard.tech/agentguard/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
       <a class="pub-link" href="https://github.com/WhitzardAgent/AgentGuard" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="WhitzardAgent/AgentGuard"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
     </div>
   </div>
