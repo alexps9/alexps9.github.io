@@ -65,6 +65,13 @@
     --line: #e6e9ef;
     --line-strong: #d4dae3;
 
+    --page-bg: #ffffff;
+    --masthead-bg: rgba(255, 255, 255, 0.85);
+    --footer-bg: #f1f2f3;
+    /* teasers and org logos sit on their own light mat so transparent PNGs stay
+       legible; it must not follow the page into the dark */
+    --mat: #ffffff;
+
     --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
     --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.07), 0 1px 2px rgba(15, 23, 42, 0.04);
     --shadow-md: 0 12px 26px -14px rgba(15, 23, 42, 0.22), 0 2px 6px rgba(15, 23, 42, 0.05);
@@ -79,6 +86,105 @@
 
     --font-display: "Plus Jakarta Sans", "Inter", "Trebuchet MS", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
     --font-body: "Inter", "Trebuchet MS", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+}
+
+/* Dark theme. The attribute is set on <html> by an inline script in the head so
+   the first paint is already correct; everything below is just the same token
+   names re-pointed, plus the handful of theme rules that bake in a light colour. */
+html[data-theme="dark"] {
+    --ink-900: #f2f6fa;
+    --ink-800: #e3e9f1;
+    --ink-700: #c7d2e0;
+    --ink-600: #a6b3c4;
+    --ink-500: #8896a8;
+    --ink-400: #6d7c8f;
+
+    --accent: #7cc0f5;
+    --accent-600: #9ed2fa;
+    --accent-tint: rgba(124, 192, 245, 0.14);
+    --gold: #f0b642;
+    --gold-tint: rgba(240, 182, 66, 0.2);
+
+    --surface: #151c26;
+    --surface-2: #1b232f;
+    --surface-3: #222c3a;
+    --line: #2c3745;
+    --line-strong: #3d4a5c;
+
+    --page-bg: #0d1117;
+    --masthead-bg: rgba(13, 17, 23, 0.82);
+    --footer-bg: #111823;
+    --mat: #e8edf3;
+
+    /* light-on-dark needs the shadow to read as depth, not as a grey halo */
+    --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 12px 26px -14px rgba(0, 0, 0, 0.75), 0 2px 6px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 28px 54px -18px rgba(0, 0, 0, 0.85);
+
+    background-color: var(--page-bg);
+    color-scheme: dark;
+}
+
+html[data-theme="dark"] body {
+    background-color: var(--page-bg);
+}
+
+/* the theme hard-codes white on these */
+html[data-theme="dark"] {
+    .page__footer {
+        background-color: var(--footer-bg);
+        color: var(--ink-500);
+    }
+
+    .greedy-nav .hidden-links {
+        background: var(--surface);
+
+        &:before {
+            border-bottom-color: var(--line);
+        }
+    }
+
+    .exp-card-tag {
+        color: #fdba74;
+        background: rgba(234, 88, 12, 0.2);
+    }
+
+    hr {
+        border-color: var(--line);
+    }
+
+    blockquote {
+        border-left-color: var(--line-strong);
+    }
+
+    table,
+    th,
+    td {
+        border-color: var(--line);
+    }
+
+    thead {
+        background-color: var(--surface-2);
+    }
+
+    tr:nth-child(even) {
+        background-color: var(--surface-2);
+    }
+
+    code,
+    pre,
+    .highlight,
+    .highlighter-rouge .highlight {
+        background-color: var(--surface-2);
+        color: var(--ink-800);
+    }
+
+    /* the archive/teaser cards the theme uses on the blog and project pages */
+    .archive__item-teaser,
+    .page__hero--overlay {
+        background-color: var(--surface-2);
+    }
 }
 
 
@@ -137,7 +243,7 @@ h1:before, .anchor:before {
    ========================================================================== */
 
 .masthead {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: var(--masthead-bg);
     -webkit-backdrop-filter: saturate(170%) blur(12px);
     backdrop-filter: saturate(170%) blur(12px);
     border-bottom: 1px solid var(--line);
@@ -225,6 +331,55 @@ h1:before, .anchor:before {
     .hidden-links a.is-active {
         color: var(--accent);
     }
+}
+
+/* light/dark switch, pinned to the right of the section links */
+.theme-toggle {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1em;
+    height: 2.1em;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    line-height: 1;
+    color: var(--ink-600);
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease), transform 0.2s var(--ease);
+
+    &:hover {
+        color: var(--accent);
+        background: var(--accent-tint);
+        border-color: var(--line-strong);
+        transform: translateY(-1px);
+    }
+
+    /* the theme's global button rules would otherwise repaint this */
+    &:active {
+        transform: translateY(0);
+    }
+
+    i {
+        pointer-events: none;
+    }
+}
+
+/* only the icon for the theme you can switch *to* is shown */
+.theme-toggle .theme-toggle-sun {
+    display: none;
+}
+
+html[data-theme="dark"] .theme-toggle .theme-toggle-sun {
+    display: inline;
+}
+
+html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
+    display: none;
 }
 
 
@@ -542,8 +697,8 @@ h1:before, .anchor:before {
 
     background-color: var(--surface);
     background-image:
-        linear-gradient(var(--surface) 35%, rgba(255, 255, 255, 0)),
-        linear-gradient(rgba(255, 255, 255, 0), var(--surface) 65%),
+        linear-gradient(var(--surface) 35%, transparent),
+        linear-gradient(transparent, var(--surface) 65%),
         radial-gradient(farthest-side at 50% 0, rgba(15, 23, 42, 0.13), rgba(15, 23, 42, 0)),
         radial-gradient(farthest-side at 50% 100%, rgba(15, 23, 42, 0.13), rgba(15, 23, 42, 0));
     background-position: top, bottom, top, bottom;
@@ -567,7 +722,7 @@ h1:before, .anchor:before {
         bottom: 0.45em;
         width: 2px;
         border-radius: var(--r-pill);
-        background: linear-gradient(180deg, var(--accent), rgba(212, 218, 227, 0.55) 45%, rgba(212, 218, 227, 0));
+        background: linear-gradient(180deg, var(--accent), var(--line-strong) 45%, transparent);
     }
 
     li {
@@ -728,7 +883,7 @@ h1:before, .anchor:before {
         object-fit: contain;
         padding: 3px;
         box-sizing: border-box;
-        background: #fff;
+        background: var(--mat);
     }
 }
 
@@ -853,7 +1008,7 @@ h1:before, .anchor:before {
         object-position: center;
         padding: 0.45em;
         box-sizing: border-box;
-        background: #fff;
+        background: var(--mat);
         transition: transform 0.5s var(--ease);
     }
 }
@@ -1464,7 +1619,7 @@ h1:before, .anchor:before {
     height: 2.8em;
     font-size: 1em;
     color: var(--ink-600);
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--masthead-bg);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
     border: 1px solid var(--line);
