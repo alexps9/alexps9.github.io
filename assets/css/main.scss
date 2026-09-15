@@ -1160,14 +1160,16 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
     }
 }
 
+/* Sits inside the default light pill, so it has to follow the theme rather than
+   assume the dark .pub-link-github background. */
 .gh-star {
     display: inline-flex;
     align-items: center;
     gap: 0.25em;
     margin-left: 0.45em;
     padding-left: 0.5em;
-    border-left: 1px solid rgba(255, 255, 255, 0.24);
-    color: #f3c65c;
+    border-left: 1px solid var(--line-strong);
+    color: var(--gold);
 
     i {
         font-size: 0.9em;
@@ -1176,7 +1178,19 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
 
 .gh-star-count {
     font-weight: 700;
-    color: #fff;
+    color: var(--ink-800);
+}
+
+/* the dark variant of the button needs the light-on-dark treatment back */
+.pub-card-links .pub-link-github {
+    .gh-star {
+        border-left-color: rgba(255, 255, 255, 0.24);
+        color: #f3c65c;
+    }
+
+    .gh-star-count {
+        color: #fff;
+    }
 }
 
 /* Conference badges */

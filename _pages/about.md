@@ -180,6 +180,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     <p class="pub-card-note">In <em>Proceedings of the 35th USENIX Security Symposium (USENIX Security)</em>, Baltimore, MD, USA, August 12-14, 2026.</p>
     <div class="pub-card-links">
       <a class="pub-link" href="https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_luo.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="pub-link" href="https://zenodo.org/records/18242998" target="_blank" rel="noopener noreferrer"><i class="fas fa-code" aria-hidden="true"></i> Code</a>
     </div>
   </div>
 </div>
