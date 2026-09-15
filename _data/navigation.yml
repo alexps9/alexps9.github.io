@@ -1,3 +1,16 @@
 # main links links
+# Section anchors on the homepage. The ids are set explicitly in _pages/about.md.
 # Projects and Blog temporarily hidden from nav (pages kept at /projects/ and /blog/)
-main: []
+main:
+  - title: "About"
+    url: /#about
+  - title: "Experiences"
+    url: /#experiences
+  - title: "News"
+    url: /#news
+  - title: "Publications"
+    url: /#publications
+  - title: "Awards"
+    url: /#awards
+  - title: "Service"
+    url: /#service

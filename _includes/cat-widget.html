@@ -1,0 +1,146 @@
+<!-- Devon Rex kitten, generated as a 3D asset from a photo (Hunyuan 3D).
+     Idles with a slow turntable, can be dragged to spin, and reacts when petted. -->
+<div class="cat-widget">
+  <div class="cat-bubble" aria-hidden="true"></div>
+
+  <model-viewer
+    class="cat-3d"
+    src="/assets/models/devon-cat.glb"
+    poster="/assets/models/devon-cat-poster.webp"
+    alt="3D model of Rousong, a black Devon Rex kitten"
+    camera-controls
+    disable-zoom
+    disable-pan
+    auto-rotate-delay="1200"
+    rotation-per-second="16deg"
+    interaction-prompt="none"
+    camera-orbit="300deg 80deg 92%"
+    min-camera-orbit="auto 55deg auto"
+    max-camera-orbit="auto 100deg auto"
+    environment-image="neutral"
+    exposure="1.1"
+    shadow-intensity="0.7"
+    shadow-softness="0.9"
+  ></model-viewer>
+
+  <p class="cat-caption">
+    <span class="cat-name">Play With Rousong (肉松)</span>
+    <span class="cat-pets" aria-live="polite"></span>
+  </p>
+
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+  <!-- the script lives inside the widget: the theme's `.sticky > *` rule
+       forces direct children of the sidebar to display: block, tags included -->
+  <script>
+    (function () {
+      var widget = document.currentScript.closest('.cat-widget');
+      if (!widget) return;
+
+      var viewer = widget.querySelector('.cat-3d');
+      var bubble = widget.querySelector('.cat-bubble');
+      var counter = widget.querySelector('.cat-pets');
+
+      var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var lines = ['purr\u2026', 'meow!', '*headbutt*', 'one more pet?', 'nap > deadline', 'no bugs today \u2728'];
+      var moves = ['is-rolling', 'is-hopping', 'is-wiggling'];
+
+      /* The cat should face the viewer first, then start turning. auto-rotate
+         is left out of the markup because its clock starts when the element
+         mounts: the model would already be turned away by the time it finishes
+         decoding. Enable it only once the model is actually on screen, and
+         re-assert the front-facing orbit since model-viewer rewrites the
+         camera-orbit attribute as it rotates. */
+      var FRONT = '300deg 80deg 92%';
+
+      viewer.addEventListener('load', function () {
+        viewer.cameraOrbit = FRONT;
+        if (reduceMotion) return;
+        window.setTimeout(function () {
+          viewer.setAttribute('auto-rotate', '');
+        }, 1600);
+      }, { once: true });
+
+      var pets = 0;
+      try {
+        pets = parseInt(window.localStorage.getItem('cat-pets') || '0', 10) || 0;
+      } catch (e) {}
+
+      /* the name stays put; only the purr tally comes and goes */
+      function renderCounter() {
+        counter.textContent = pets ? '\u2665 ' + pets : '';
+        counter.title = pets ? 'Rousong purred ' + pets + ' time(s)' : '';
+      }
+      renderCounter();
+
+      var bubbleTimer;
+      var moveTimer;
+
+      /* pick a reaction; restarting the same one needs a reflow between removes */
+      function react() {
+        if (reduceMotion) return;
+        moves.forEach(function (name) {
+          widget.classList.remove(name);
+        });
+        void widget.offsetWidth;
+
+        var move = moves[Math.floor(Math.random() * moves.length)];
+        widget.classList.add(move);
+        window.clearTimeout(moveTimer);
+        moveTimer = window.setTimeout(function () {
+          widget.classList.remove(move);
+        }, 1050);
+      }
+
+      function heart() {
+        if (reduceMotion) return;
+        var node = document.createElement('span');
+        node.className = 'cat-heart';
+        node.textContent = '\u2665';
+        node.style.left = (38 + Math.random() * 24) + '%';
+        node.style.animationDelay = (Math.random() * 0.18).toFixed(2) + 's';
+        widget.appendChild(node);
+        window.setTimeout(function () {
+          if (node.parentNode) node.parentNode.removeChild(node);
+        }, 1400);
+      }
+
+      function pet() {
+        pets += 1;
+        try {
+          window.localStorage.setItem('cat-pets', String(pets));
+        } catch (e) {}
+        renderCounter();
+
+        bubble.textContent = lines[Math.floor(Math.random() * lines.length)];
+        widget.classList.add('is-talking');
+        window.clearTimeout(bubbleTimer);
+        bubbleTimer = window.setTimeout(function () {
+          widget.classList.remove('is-talking');
+        }, 1800);
+
+        react();
+        heart();
+        heart();
+      }
+
+      /* camera-controls turns drags into orbiting, so only a real tap pets */
+      var start = null;
+
+      viewer.addEventListener('pointerdown', function (event) {
+        start = { x: event.clientX, y: event.clientY };
+      });
+
+      viewer.addEventListener('pointerup', function (event) {
+        if (!start) return;
+        var moved = Math.abs(event.clientX - start.x) + Math.abs(event.clientY - start.y);
+        start = null;
+        if (moved < 6) pet();
+      });
+
+      viewer.addEventListener('pointercancel', function () {
+        start = null;
+      });
+    })();
+  </script>
+</div>

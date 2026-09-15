@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Songyang Peng"
-description              : "Fudan University"
+description              : "Ph.D. Student, UC Santa Barbara"
 repository               : "psy/psy.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,9 @@ author:
   name             : "Songyang Peng"
   avatar           : "images/profile_back.jpg"
   bio              : ""
-  location         : "Shanghai, China"
+  role             : "Ph.D. Student in Computer Science"
+  affiliation      : "UC Santa Barbara"
+  location         : "Santa Barbara, CA"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=nj5AAh0AAAAJ&hl=en&oi=ao"
