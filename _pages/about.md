@@ -97,8 +97,8 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 <div class="news-feed" markdown="1">
 
-* _2026.09_ 🎉 *BHUNTER* was accepted by **ACM TOSEM** on generating blind-spot driving scenarios for robustness testing of perception systems.
 * _2026.09_ 🌊 Started my **Ph.D.** in **Computer Science** at **[UC Santa Barbara](https://www.ucsb.edu/)**, working with Prof. **[Wenbo Guo](https://henrygwb.github.io/)**. Excited for the journey ahead!
+* _2026.09_ 🎉 *BHUNTER* was accepted by **ACM TOSEM** on generating blind-spot driving scenarios for robustness testing of perception systems.
 * _2026.08_ 🎤 I will give an **Oral** talk at **KDD 2026** on *Amour*. See you in Jeju! 🌊
 * _2026.07_ 🎉 *LawSentry* was accepted by **IEEE TIFS** on LLM-empowered oracle generation for logical flaw detection in autonomous driving.
 * _2026.07_ 👥 I will attend **ICML 2026** with my co-authors on *Darwinian Memory*. See you in Seoul! 🏙️
