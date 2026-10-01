@@ -200,18 +200,9 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     <p class="pub-card-authors"><strong>Songyang Peng</strong>, Jiarun Dai, Yanghao Lv, Jiaqi Luo, Zongan Huang, Yuan Zhang, Min Yang.</p>
     <p class="pub-card-note"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2026</em></p>
     <div class="pub-card-links">
-      <button class="pub-link pub-link-demo" type="button" data-video-target="video-modal-bhunter"><i class="fas fa-play" aria-hidden="true"></i> Demo</button>
+      <a class="pub-link" href="https://alexps9.github.io/BHUNTER/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
+      <a class="pub-link" href="https://github.com/alexps9/BHUNTER" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="alexps9/BHUNTER"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
     </div>
-  </div>
-</div>
-
-<div class="video-modal" id="video-modal-bhunter">
-  <div class="video-modal-backdrop" data-video-close></div>
-  <div class="video-modal-content">
-    <button class="video-modal-close" type="button" data-video-close aria-label="Close video">&times;</button>
-    <video controls playsinline poster="/images/publications/bhunter.png">
-      <source src="/images/publications/bhunter.mp4" type="video/mp4">
-    </video>
   </div>
 </div>
 
@@ -292,39 +283,6 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
         .catch(function () {
           if (!cached) badge.style.display = 'none';
         });
-    });
-  });
-
-  function closeVideoModal(modal) {
-    modal.classList.remove('is-open');
-    var video = modal.querySelector('video');
-    if (video) video.pause();
-  }
-
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('[data-video-target]').forEach(function (btn) {
-      btn.addEventListener('click', function () {
-        var modal = document.getElementById(btn.getAttribute('data-video-target'));
-        if (!modal) return;
-        modal.classList.add('is-open');
-        var video = modal.querySelector('video');
-        if (video) {
-          video.currentTime = 0;
-          video.play().catch(function () {});
-        }
-      });
-    });
-
-    document.querySelectorAll('.video-modal').forEach(function (modal) {
-      modal.querySelectorAll('[data-video-close]').forEach(function (el) {
-        el.addEventListener('click', function () { closeVideoModal(modal); });
-      });
-    });
-
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') {
-        document.querySelectorAll('.video-modal.is-open').forEach(closeVideoModal);
-      }
     });
   });
 })();
