@@ -616,6 +616,14 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
     color: var(--ink-400);
 }
 
+/* the theme only ships the old Twitter bird; this is the X mark */
+.x-mark {
+    display: block;
+    width: 0.92em;
+    height: 0.92em;
+    flex: 0 0 auto;
+}
+
 /* compact social icon row */
 .author__urls_sm {
     display: flex;
