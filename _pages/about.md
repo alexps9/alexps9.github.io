@@ -200,6 +200,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
     <p class="pub-card-authors"><strong>Songyang Peng</strong>, Jiarun Dai, Yanghao Lv, Jiaqi Luo, Zongan Huang, Yuan Zhang, Min Yang.</p>
     <p class="pub-card-note"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2026</em></p>
     <div class="pub-card-links">
+      <a class="pub-link" href="https://dl.acm.org/doi/pdf/10.1145/3857808" target="_blank" rel="noopener noreferrer">Paper</a>
       <a class="pub-link" href="https://alexps9.github.io/BHUNTER/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
       <a class="pub-link" href="https://github.com/alexps9/BHUNTER" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="alexps9/BHUNTER"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
     </div>
