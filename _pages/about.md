@@ -125,6 +125,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 # 🤝 Professional Service {#service}
 
+* **Reviewer**, [ACL 2026](https://2026.aclweb.org/).
 * **Workshop reviewer**, [Agents in the Wild](https://agentwild-workshop.github.io/icml2026/) (ICML 2026), May 2026.
 
 # 🗺️ Visitor Map {#map}
