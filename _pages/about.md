@@ -104,10 +104,10 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 * _2026.07_ 👥 I will attend **ICML 2026** with my co-authors on *Darwinian Memory*. See you in Seoul! 🏙️
 * _2026.05_ 🎓 I successfully defended my master's thesis and graduated! Thanks to my advisor Prof. **[Jiarun Dai](https://djrrr.github.io/)**! 🙏
 * _2026.05_ 🧐 Served as a **reviewer** for the [Second Workshop on Agents in the Wild: Safety, Security, and Beyond](https://agentwild-workshop.github.io/icml2026/) at **ICML 2026**.
+* _2026.03_ 🎓 Accepted to the **Computer Science Ph.D. program** at **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will join **[Wenbo Guo](https://henrygwb.github.io/)**'s group. See you in Santa Barbara! 🌊
 * _2026_ 🎉 One paper accepted by **ICML 2026** on Darwinian memory for GUI agent evolution.
 * _2025_ 🎉 One paper accepted by **USENIX Security 2026** on agent-based DoS attacks.
 * _2025.04_ 🎉 Started as LLM Inference Engineer Intern at **ByteDance**.
-* _2025.03_ 🎓 Accepted to the **Computer Science Ph.D. program** at **[University of California, Santa Barbara](https://www.ucsb.edu/)**, where I will join **[Wenbo Guo](https://henrygwb.github.io/)**'s group. See you in Santa Barbara! 🌊
 * _2024.12_ 🎉 Selected for Tencent's **Game-Engine Computer Graphics Practice Elite Talent Program** as an AI Research Intern.
 * _2024_ 🎉 One paper accepted by **USENIX VehicleSec 2026** on fuzzing-based testing for autonomous driving.
 
