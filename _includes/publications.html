@@ -1,0 +1,141 @@
+{% comment %}
+  which: "leading" shows first-author and co-first papers only.
+  which: "all" shows every paper, in the same order.
+{% endcomment %}
+
+{% if include.which == "all" or include.which == "leading" %}
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/agentguard.jpg" class="pub-card-zoom">
+      <img src="/images/publications/agentguard.jpg" alt="AgentGuard teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/agentguard.png';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-preprint">Preprint</span>
+    <p class="pub-card-title">AgentGuard: An Attribute-Based Access Control Framework for Tool-Use LLM-Based Agent</p>
+    <p class="pub-card-authors">Jiaqi Luo<sup>&#42;</sup>, <strong>Songyang Peng</strong><sup>&#42;</sup>, Jiarun Dai, Zhile Chen, Zhuoxiang Shen, Geng Hong, Xudong Pan, Yuan Zhang, Min Yang.</p>
+    <p class="pub-card-note"><em>We welcome community contributions!</em></p>
+    <div class="pub-card-links">
+      <a class="pub-link" href="https://arxiv.org/pdf/2605.28071" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="pub-link" href="https://whitzard.tech/agentguard/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
+      <a class="pub-link" href="https://github.com/WhitzardAgent/AgentGuard" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="WhitzardAgent/AgentGuard"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/amour.jpg" class="pub-card-zoom">
+      <img src="/images/publications/amour.jpg" alt="Amour teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/amour.png';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-kdd-workshop">SciSoc Agents & LLMs 26'</span>
+    <p class="pub-card-title">Amour: A Latent Dynamical System for Controllable and Stateful Social Interaction in LLMs</p>
+    <p class="pub-card-authors"><strong>Songyang Peng</strong>, Ruoyu Fang, Xinfeng Yuan, Haidong Zheng, Zesong Yang, Ruijie Wang, Hongze Mi, Yilan Guo, Linxiao Zhou.</p>
+    <p class="pub-card-note"><em>KDD 2026 Workshop on SciSoc Agents & LLMs</em> (<strong>Oral</strong>); manuscript under review.</p>
+  </div>
+</div>
+{% endif %}
+
+{% if include.which == "all" %}
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/darwinian-memory.png" class="pub-card-zoom">
+      <img src="/images/publications/darwinian-memory.png" alt="Darwinian Memory teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/darwinian-memory.jpg';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-icml">ICML'26</span>
+    <p class="pub-card-title">Darwinian Memory: A Training-Free Self-Regulating Memory System for GUI Agent Evolution</p>
+    <p class="pub-card-authors">Hongze Mi, Yibo Feng, WenJie Lu, Song Cao, Jinyuan Li, Yanming Li, Xuelin Zhang, Haotian Luo, <strong>Songyang Peng</strong>, He Cui, Tengfei Tian, Jun Fang, Hua Chai, Naiqiang Tan.</p>
+    <p class="pub-card-note">In <em>Proceedings of the International Conference on Machine Learning (ICML)</em>, 2026.</p>
+    <div class="pub-card-links">
+      <a class="pub-link" href="https://arxiv.org/pdf/2601.22528" target="_blank" rel="noopener noreferrer">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/autonomy-costs.jpg" class="pub-card-zoom">
+      <img src="/images/publications/autonomy-costs.jpg" alt="Autonomy Comes with Costs teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/autonomy-costs.png';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-usenix-security">USENIX Security'26</span>
+    <p class="pub-card-title">Autonomy Comes with Costs: Detecting Denial-of-Service Vulnerabilities Caused by Resource Abusing in LLM-based Agents</p>
+    <p class="pub-card-authors">Jiaqi Luo, Jiarun Dai, Fengyu Liu, <strong>Songyang Peng</strong>, Youkun Shi, Tong Bu, Geng Hong, Xudong Pan, Yuan Zhang.</p>
+    <p class="pub-card-note">In <em>Proceedings of the 35th USENIX Security Symposium (USENIX Security)</em>, Baltimore, MD, USA, August 12-14, 2026.</p>
+    <div class="pub-card-links">
+      <a class="pub-link" href="https://www.usenix.org/system/files/conference/usenixsecurity26/sec26_prepub_luo.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="pub-link" href="https://zenodo.org/records/18242998" target="_blank" rel="noopener noreferrer"><i class="fas fa-archive" aria-hidden="true"></i> Artifact</a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if include.which == "all" or include.which == "leading" %}
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/bhunter.png" class="pub-card-zoom">
+      <img src="/images/publications/bhunter.png" alt="BHUNTER teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/bhunter.jpg';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-tosem">TOSEM'26</span>
+    <p class="pub-card-title">BHUNTER: Generating Blind-Spot Driving Scenarios for Robustness Testing of Perception Systems</p>
+    <p class="pub-card-authors"><strong>Songyang Peng</strong>, Jiarun Dai, Yanghao Lv, Jiaqi Luo, Zongan Huang, Yuan Zhang, Min Yang.</p>
+    <p class="pub-card-note"><em>ACM Transactions on Software Engineering and Methodology (TOSEM), 2026</em></p>
+    <div class="pub-card-links">
+      <a class="pub-link" href="https://dl.acm.org/doi/pdf/10.1145/3857808" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="pub-link" href="https://alexps9.github.io/BHUNTER/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Project</a>
+      <a class="pub-link" href="https://github.com/alexps9/BHUNTER" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="alexps9/BHUNTER"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if include.which == "all" %}
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/tifs-oracle.jpg" class="pub-card-zoom">
+      <img src="/images/publications/tifs-oracle.jpg" alt="Facilitating Logical Flaw Detection teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/tifs-oracle.png';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-tifs">IEEE TIFS'26</span>
+    <p class="pub-card-title">Facilitating Logical Flaw Detection for Autonomous Driving Systems through LLM-Empowered Oracle Generation</p>
+    <p class="pub-card-authors">Zongan Huang, Jiarun Dai, Jiaqi Luo, Qifan Xiao, <strong>Songyang Peng</strong>, Xudong Pan, Yuan Zhang, Min Yang.</p>
+    <p class="pub-card-note"><em>IEEE Transactions on Information Forensics and Security (TIFS)</em>, 2026.</p>
+    <div class="pub-card-links">
+      <a class="pub-link" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11653414" target="_blank" rel="noopener noreferrer">Paper</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-card">
+  <div class="pub-card-image">
+    <i class="fas fa-file-alt" aria-hidden="true"></i>
+    <a href="/images/publications/apsfuzz.jpg" class="pub-card-zoom">
+      <img src="/images/publications/apsfuzz.jpg" alt="APSFUZZ teaser" loading="lazy" onerror="var a=this.closest('a');if(!this.dataset.f){this.dataset.f='1';this.src='/images/publications/apsfuzz.png';if(a)a.href=this.src;}else{this.style.display='none';if(a)a.style.display='none';}">
+    </a>
+  </div>
+  <div class="pub-card-body">
+    <span class="conference-badge conference-vehiclesec">VehicleSec'25</span>
+    <p class="pub-card-title">APSFUZZ: Simulation-Based Fuzzing Testing for Automated Parking Systems</p>
+    <p class="pub-card-authors">Tong Bu, Jiarun Dai, Jiaqi Luo, <strong>Songyang Peng</strong>, Zongan Huang, Min Yang.</p>
+    <p class="pub-card-note">In <em>Proceedings of the 3rd USENIX Symposium on Vehicle Security and Privacy (VehicleSec)</em>, 2025, pages 289-296.</p>
+    <div class="pub-card-links">
+      <a class="pub-link" href="https://www.usenix.org/system/files/vehiclesec25-bu.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+      <a class="pub-link" href="https://github.com/JSGforever/APSFuzz" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub <span class="gh-star" data-repo="JSGforever/APSFuzz"><i class="fas fa-star" aria-hidden="true"></i><span class="gh-star-count">·</span></span></a>
+    </div>
+  </div>
+</div>
+{% endif %}

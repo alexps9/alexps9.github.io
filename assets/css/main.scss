@@ -447,7 +447,8 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
 .page__content .pub-link,
 .page__content .pub-card-zoom,
 .page__content .project-link,
-.page__content .conference-badge {
+.page__content .conference-badge,
+.page__content .publications-note a {
     background-image: none;
 }
 
@@ -954,13 +955,24 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
    ========================================================================== */
 
 .publications-note {
-    margin-left: 0.6em;
+    margin-left: 0.55em;
     font-family: var(--font-body);
-    font-size: 0.44em;
+    font-size: 0.42em;
     font-weight: 500;
     letter-spacing: 0;
     vertical-align: middle;
-    white-space: nowrap;
+    white-space: normal;
+
+    a {
+        margin-right: 0.15em;
+        font-weight: 700;
+        color: var(--accent);
+        text-decoration: none;
+
+        &:hover {
+            color: var(--accent-600);
+        }
+    }
 
     em {
         font-style: italic;

@@ -171,4 +171,45 @@
 })();
 </script>
 
+<script>
+(function () {
+  function formatCount(n) {
+    if (n < 1000) return String(n);
+    var divisor = n >= 1000000 ? 1000000 : 1000;
+    var suffix = n >= 1000000 ? 'M' : 'k';
+    var value = n / divisor;
+    var rounded = value >= 10 ? Math.round(value) : Math.round(value * 10) / 10;
+    return String(rounded).replace(/\.0$/, '') + suffix;
+  }
+
+  function cacheKey(repo) { return 'gh-star-count:' + repo; }
+  var CACHE_TTL = 6 * 60 * 60 * 1000;
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.gh-star[data-repo]').forEach(function (badge) {
+      var repo = badge.getAttribute('data-repo');
+      var countEl = badge.querySelector('.gh-star-count');
+      var cached = null;
+      try { cached = JSON.parse(localStorage.getItem(cacheKey(repo))); } catch (e) {}
+
+      if (cached && typeof cached.count === 'number') {
+        countEl.textContent = formatCount(cached.count);
+      }
+      if (cached && (Date.now() - cached.updatedAt < CACHE_TTL)) return;
+
+      fetch('https://api.github.com/repos/' + repo, { headers: { Accept: 'application/vnd.github+json' } })
+        .then(function (res) { if (!res.ok) throw new Error('GitHub API error'); return res.json(); })
+        .then(function (data) {
+          if (typeof data.stargazers_count !== 'number') throw new Error('Missing star count');
+          countEl.textContent = formatCount(data.stargazers_count);
+          localStorage.setItem(cacheKey(repo), JSON.stringify({ count: data.stargazers_count, updatedAt: Date.now() }));
+        })
+        .catch(function () {
+          if (!cached) badge.style.display = 'none';
+        });
+    });
+  });
+})();
+</script>
+
 <!-- end custom head snippets -->
