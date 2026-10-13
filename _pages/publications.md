@@ -2,6 +2,7 @@
 permalink: /publications/
 title: "Publications"
 excerpt: "All publications"
+author_profile: false
 ---
 
 # 📝 Publications <span class="publications-note"><sup>&#42;</sup> <em>indicates equal contribution.</em></span>

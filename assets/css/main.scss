@@ -448,7 +448,7 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
 .page__content .pub-card-zoom,
 .page__content .project-link,
 .page__content .conference-badge,
-.page__content .publications-note a {
+.page__content .pub-full-list {
     background-image: none;
 }
 
@@ -494,6 +494,15 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
     .page {
         width: 75%;
         padding-left: 2.5%;
+    }
+
+    /* pages without the profile sidebar, such as the full publication list */
+    .page.page--wide {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
     }
 
     .sidebar .profile_box {
@@ -954,6 +963,31 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
    7. Publications
    ========================================================================== */
 
+.page__content h1 .pub-full-list {
+    display: inline-block;
+    margin-left: 0.7rem;
+    padding: 0.42rem 0.95rem;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0;
+    vertical-align: 0.12em;
+    color: var(--accent);
+    background: var(--accent-tint);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--r-pill);
+    text-decoration: none;
+    transition: color 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease);
+
+    &:hover {
+        color: var(--page-bg);
+        background: var(--accent);
+        border-color: var(--accent);
+        text-decoration: none;
+    }
+}
+
 .publications-note {
     margin-left: 0.55em;
     font-family: var(--font-body);
@@ -962,17 +996,6 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
     letter-spacing: 0;
     vertical-align: middle;
     white-space: normal;
-
-    a {
-        margin-right: 0.15em;
-        font-weight: 700;
-        color: var(--accent);
-        text-decoration: none;
-
-        &:hover {
-            color: var(--accent-600);
-        }
-    }
 
     em {
         font-style: italic;

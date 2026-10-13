@@ -113,7 +113,7 @@ Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](ht
 
 </div>
 
-# 📝 Selected Publications <span class="publications-note"><a href="/publications/">[Full List]</a> <sup>&#42;</sup> <em>indicates equal contribution.</em></span> {#publications}
+# 📝 Selected Publications <a class="pub-full-list" href="/publications/">Full List</a> <span class="publications-note"><sup>&#42;</sup> <em>indicates equal contribution.</em></span> {#publications}
 
 {% include publications.html which="leading" %}
 
