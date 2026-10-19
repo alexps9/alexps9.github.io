@@ -1,6 +1,8 @@
 # main links links
 # Section anchors on the homepage. The ids are set explicitly in _pages/about.md.
 main:
+  - title: "CV"
+    url: /cv/
   - title: "About"
     url: /#about
   - title: "Experiences"

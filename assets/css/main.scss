@@ -308,6 +308,27 @@ h1:before, .anchor:before {
         background: linear-gradient(90deg, var(--accent), var(--gold));
     }
 
+    .visible-links a.nav-cv {
+        margin-left: 0;
+        margin-right: 0.35rem;
+        padding: 0.28em 0.8em;
+        color: var(--accent);
+        background: var(--accent-tint);
+        border: 1px solid var(--line-strong);
+        border-radius: var(--r-pill);
+
+        &:before {
+            content: none;
+        }
+
+        &:hover,
+        &.is-active {
+            color: var(--page-bg);
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+    }
+
     /* section currently in view */
     .visible-links a.is-active {
         color: var(--accent);
@@ -1641,4 +1662,48 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
         opacity: 1 !important;
         transform: none !important;
     }
+}
+
+.cv-viewer {
+    max-width: 920px;
+    margin: 0.4rem auto 0;
+}
+
+.cv-toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0.7rem;
+}
+
+.page__content a.cv-download {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4em 0.9em;
+    font-family: var(--font-display);
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--accent);
+    background: var(--accent-tint);
+    background-image: none;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--r-pill);
+    text-decoration: none;
+
+    &:hover {
+        color: var(--page-bg);
+        background: var(--accent);
+        background-image: none;
+        border-color: var(--accent);
+        text-decoration: none;
+    }
+}
+
+.cv-frame {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 9.5rem);
+    min-height: 720px;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--r-md);
+    background: #fff;
 }
