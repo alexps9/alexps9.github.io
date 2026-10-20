@@ -447,6 +447,16 @@ html[data-theme="dark"] .theme-toggle .theme-toggle-moon {
     font-weight: 700;
 }
 
+.page__content .about-invite {
+    margin: 1.15em 0 0.15em;
+    padding: 0.85em 1.05em;
+    color: var(--ink-800);
+    background: var(--accent-tint);
+    border: 1px solid var(--line-strong);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--r-md);
+}
+
 /* animated underline on content links */
 .page__content a {
     color: var(--accent-600);

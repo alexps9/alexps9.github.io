@@ -25,6 +25,8 @@ I am a **first-year Ph.D. student** in **Computer Science** at the **[University
 
 Previously, I worked as a LLM Inference Engineer Intern at **[ByteDance, Ark](https://www.volcengine.com/product/ark)**, mentored by **[Meng Wang](https://mengwangbupt.github.io/)**, contributing to high-performance LLM serving and agent infrastructure. Before that, I was an AI Research Intern at **[Tencent, IEG](https://www.tencent.com/en-us/)**.
 
+<p class="about-invite">I am currently seeking research internship opportunities for <strong>Summer 2027</strong>. I am also always open to research collaborations, and students who would like to intern with me are very welcome. Feel free to reach out by <a href="mailto:s_peng@ucsb.edu">email</a> anytime!</p>
+
 # 🌍 Experiences {#experiences}
 
 <div class="exp-grid">
